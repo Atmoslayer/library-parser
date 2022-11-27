@@ -5,13 +5,17 @@ from requests.exceptions import HTTPError
 logging.basicConfig(level=logging.INFO)
 
 
+def check_for_redirect(response, book_id):
+    if response.history:
+        raise HTTPError(f'No book with id {book_id}')
+
+
 def save_book(book_id, folder_name):
     url = 'https://tululu.org/txt.php'
     params = {'id': book_id}
     response = requests.get(url, params=params)
-    response.raise_for_status()
+    check_for_redirect(response, book_id)
     filename = f'book{book_id}.txt'
-
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
@@ -20,7 +24,7 @@ def save_book(book_id, folder_name):
 
 
 if __name__ == "__main__":
-    for book_id in range(10):
+    for book_id in range(1, 11):
         try:
             save_book(book_id, 'Books')
         except HTTPError as http_error:
