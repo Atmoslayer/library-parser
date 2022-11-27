@@ -37,7 +37,7 @@ def parse_book(book_id):
         'author': author,
         'comments': comments,
         'image_url': image_url,
-        'genres': genres,
+        'genres': genres
     }
 
     return book_data
@@ -76,7 +76,11 @@ def download_txt(book_id, book, folder='books'):
     file_dir = f'{folder}/{pure_filename}'
 
     with open(f'{file_dir}.txt', 'w') as file:
-        file.write(response.text)
+
+        file.write('Жанры: ')
+        for genre in book['genres']:
+            file.write('%s' % f'{genre} ')
+        file.write(f'\n{response.text}')
         file.write('\n\nКомментарии:\n')
         for comment in book['comments']:
             file.write('%s\n' % comment)
