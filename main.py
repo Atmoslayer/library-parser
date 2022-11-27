@@ -13,22 +13,31 @@ def parse_book(book_id):
     response = requests.get(f'{url}b{book_id}/')
     check_for_redirect(response, book_id)
     soup = BeautifulSoup(response.text, 'lxml')
+
     header_tag_text = soup.find('h1').text
     book_name, author = header_tag_text.split('::')
     book_name = book_name.strip()
-    image_url = soup.find('div', class_='bookimage').find('img')['src']
     author = author.strip()
+
+    image_url = soup.find('div', class_='bookimage').find('img')['src']
+
     comments_tags = soup.find_all('div', class_='texts')
     comments = []
     if comments_tags:
-        for comment in comments_tags:
-            comments.append(comment.find('span', class_='black').text)
+        for comment_tag in comments_tags:
+            comments.append(comment_tag.find('span', class_='black').text)
+
+    genres = []
+    genre_tags = soup.find('span', class_='d_book').find_all('a')
+    for genre_tag in genre_tags:
+        genres.append(genre_tag.text)
 
     book_data = {
         'book_name': book_name,
         'author': author,
         'comments': comments,
         'image_url': image_url,
+        'genres': genres,
     }
 
     return book_data
