@@ -91,16 +91,20 @@ def download_txt(book_id, book, folder='books'):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('--books_path', help='Enter path to save books', type=str)
+    parser.add_argument('--images_path', help='Enter path to save books', type=str)
     parser.add_argument('--start_id', help='Start book id', default=1, type=int)
     parser.add_argument('--end_id', help='End book id', default=10, type=int)
     arguments = parser.parse_args()
+    books_path = arguments.books_path
+    images_path = arguments.images_path
     start_id = arguments.start_id
     end_id = arguments.end_id
     for book_id in range(start_id, end_id + 1):
         try:
             book_data = parse_book(book_id)
-            download_txt(book_id, book_data)
-            download_image(book_data['image_url'], book_id)
+            download_txt(book_id, book_data, books_path)
+            download_image(book_data['image_url'], book_id, images_path)
         except HTTPError as http_error:
             print(f'HTTP error occurred: {http_error}')
 
