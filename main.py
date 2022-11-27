@@ -17,8 +17,21 @@ def parse_book(book_id):
     book_name, author = header_tag_text.split('::')
     book_name = book_name.strip()
     image_url = soup.find('div', class_='bookimage').find('img')['src']
+    author = author.strip()
+    comments_tags = soup.find_all('div', class_='texts')
+    comments = []
+    if comments_tags:
+        for comment in comments_tags:
+            comments.append(comment.find('span', class_='black').text)
 
-    return book_name, image_url
+    book_data = {
+        'book_name': book_name,
+        'author': author,
+        'comments': comments,
+        'image_url': image_url,
+    }
+
+    return book_data
 
 
 def check_for_redirect(response, book_id):
@@ -40,7 +53,8 @@ def download_image(image_url, book_id, folder='images'):
         image.write(response.content)
 
 
-def download_txt(book_id, book_name, folder='books'):
+def download_txt(book_id, book, folder='books'):
+    book_name = book['book_name']
     url = 'https://tululu.org/txt.php'
     params = {'id': book_id}
     response = requests.get(url, params=params)
@@ -54,6 +68,9 @@ def download_txt(book_id, book_name, folder='books'):
 
     with open(f'{file_dir}.txt', 'w') as file:
         file.write(response.text)
+        file.write('\n\nКомментарии:\n')
+        for comment in book['comments']:
+            file.write('%s\n' % comment)
 
     return os.path.join(file_dir)
 
@@ -61,9 +78,9 @@ def download_txt(book_id, book_name, folder='books'):
 if __name__ == "__main__":
     for book_id in range(1, 11):
         try:
-            book_name, image_url = parse_book(book_id)
-            print(download_txt(book_id, book_name))
-            download_image(image_url, book_id)
+            book_data = parse_book(book_id)
+            print(download_txt(book_id, book_data))
+            download_image(book_data['image_url'], book_id)
         except HTTPError as http_error:
             print(f'HTTP error occurred: {http_error}')
 
