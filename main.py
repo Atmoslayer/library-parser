@@ -1,3 +1,4 @@
+import argparse
 import requests
 import os
 import logging
@@ -89,10 +90,16 @@ def download_txt(book_id, book, folder='books'):
 
 
 if __name__ == "__main__":
-    for book_id in range(1, 11):
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--start_id', help='Start book id', default=1, type=int)
+    parser.add_argument('--end_id', help='End book id', default=10, type=int)
+    arguments = parser.parse_args()
+    start_id = arguments.start_id
+    end_id = arguments.end_id
+    for book_id in range(start_id, end_id + 1):
         try:
             book_data = parse_book(book_id)
-            print(download_txt(book_id, book_data))
+            download_txt(book_id, book_data)
             download_image(book_data['image_url'], book_id)
         except HTTPError as http_error:
             print(f'HTTP error occurred: {http_error}')
