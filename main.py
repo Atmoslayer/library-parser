@@ -43,6 +43,7 @@ def download_image(image_url, book_id, folder):
     file_dir = f'{folder}/{book_id}{image_type}'
     image_link = f'https://tululu.org{image_url}'
     response = requests.get(image_link)
+    response.raise_for_status()
 
     if not os.path.exists(folder):
         os.makedirs(folder)
@@ -56,6 +57,7 @@ def download_txt(book_id, book, folder):
     url = 'https://tululu.org/txt.php'
     params = {'id': book_id}
     response = requests.get(url, params=params)
+    response.raise_for_status()
     check_for_redirect(response, book_id)
 
     pure_filename = sanitize_filename(f'{book_id}.{book_name}')
@@ -95,6 +97,7 @@ if __name__ == "__main__":
     for book_id in range(start_id, end_id + 1):
         try:
             response = requests.get(f'{url}b{book_id}/')
+            response.raise_for_status()
             check_for_redirect(response, book_id)
             soup = BeautifulSoup(response.text, 'lxml')
 
