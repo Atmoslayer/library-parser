@@ -6,8 +6,6 @@ from requests.exceptions import HTTPError
 from pathvalidate import sanitize_filename
 from bs4 import BeautifulSoup
 
-logging.basicConfig(level=logging.INFO)
-
 
 def parse_book(book_id):
     url = 'https://tululu.org/'
@@ -49,7 +47,7 @@ def check_for_redirect(response, book_id):
         raise HTTPError(f'No book with id {book_id}')
 
 
-def download_image(image_url, book_id, folder='images'):
+def download_image(image_url, book_id, folder):
     image_url_elements = os.path.splitext(image_url)
     image_type = image_url_elements[1]
     file_dir = f'{folder}/{book_id}{image_type}'
@@ -63,7 +61,7 @@ def download_image(image_url, book_id, folder='images'):
         image.write(response.content)
 
 
-def download_txt(book_id, book, folder='books'):
+def download_txt(book_id, book, folder):
     book_name = book['book_name']
     url = 'https://tululu.org/txt.php'
     params = {'id': book_id}
@@ -90,9 +88,10 @@ def download_txt(book_id, book, folder='books'):
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     parser = argparse.ArgumentParser()
-    parser.add_argument('--books_path', help='Enter path to save books', type=str)
-    parser.add_argument('--images_path', help='Enter path to save books', type=str)
+    parser.add_argument('--books_path', help='Enter path to save books', type=str, default='books')
+    parser.add_argument('--images_path', help='Enter path to save books', type=str, default='images')
     parser.add_argument('--start_id', help='Start book id', default=1, type=int)
     parser.add_argument('--end_id', help='End book id', default=10, type=int)
     arguments = parser.parse_args()
@@ -106,7 +105,7 @@ if __name__ == "__main__":
             download_txt(book_id, book_data, books_path)
             download_image(book_data['image_url'], book_id, images_path)
         except HTTPError as http_error:
-            print(f'HTTP error occurred: {http_error}')
+            logging.info(f'HTTP error occurred: {http_error}')
 
 
 
