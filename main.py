@@ -89,11 +89,11 @@ def download_txt(book_id, book, folder):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='Library parser')
     parser.add_argument('--books_path', help='Enter path to save books', type=str, default='books')
     parser.add_argument('--images_path', help='Enter path to save books', type=str, default='images')
-    parser.add_argument('--start_id', help='Start book id', default=1, type=int)
-    parser.add_argument('--end_id', help='End book id', default=10, type=int)
+    parser.add_argument('--start_id', help='Enter start book id', default=1, type=int)
+    parser.add_argument('--end_id', help='Enter end book id', default=10, type=int)
     arguments = parser.parse_args()
     books_path = arguments.books_path
     images_path = arguments.images_path
