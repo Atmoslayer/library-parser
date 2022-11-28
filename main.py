@@ -45,8 +45,7 @@ def download_image(image_url, book_id, folder):
     response = requests.get(image_link)
     response.raise_for_status()
 
-    if not os.path.exists(folder):
-        os.makedirs(folder)
+    os.makedirs(folder, exist_ok=True)
 
     with open(f'{file_dir}', 'ab') as image:
         image.write(response.content)
@@ -61,8 +60,8 @@ def download_txt(book_id, book, folder):
     check_for_redirect(response, book_id)
 
     pure_filename = sanitize_filename(f'{book_id}.{book_name}')
-    if not os.path.exists(folder):
-        os.makedirs(folder)
+
+    os.makedirs(folder, exist_ok=True)
 
     file_dir = f'{folder}/{pure_filename}'
 
