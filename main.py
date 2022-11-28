@@ -2,8 +2,9 @@ import argparse
 import requests
 import os
 import logging
+import time
 from urllib.parse import urljoin
-from requests.exceptions import HTTPError
+from requests.exceptions import HTTPError, ConnectionError
 from pathvalidate import sanitize_filename
 from bs4 import BeautifulSoup
 
@@ -106,6 +107,10 @@ if __name__ == "__main__":
             download_image(book['image_url'], book_id, images_path)
         except HTTPError as http_error:
             logging.info(f'HTTP error occurred: {http_error}')
+
+        except ConnectionError as connection_error:
+            logging.info(f'Connection error occurred: {connection_error}')
+            time.sleep(5)
 
 
 
