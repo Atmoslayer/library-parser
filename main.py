@@ -16,15 +16,10 @@ def parse_book(soup):
     image_url = soup.find('div', class_='bookimage').find('img')['src']
 
     comments_tags = soup.find_all('div', class_='texts')
-    comments = []
-    if comments_tags:
-        for comment_tag in comments_tags:
-            comments.append(comment_tag.find('span', class_='black').text)
+    comments = [comment_tag.find('span', class_='black').text for comment_tag in comments_tags if comments_tags]
 
-    genres = []
     genre_tags = soup.find('span', class_='d_book').find_all('a')
-    for genre_tag in genre_tags:
-        genres.append(genre_tag.text)
+    genres = [genre_tag.text for genre_tag in genre_tags if genre_tags]
 
     book = {
         'book_name': book_name,
