@@ -31,7 +31,7 @@ def parse_book(book_id):
     for genre_tag in genre_tags:
         genres.append(genre_tag.text)
 
-    book_data = {
+    book = {
         'book_name': book_name,
         'author': author,
         'comments': comments,
@@ -39,7 +39,7 @@ def parse_book(book_id):
         'genres': genres
     }
 
-    return book_data
+    return book
 
 
 def check_for_redirect(response, book_id):
@@ -101,9 +101,9 @@ if __name__ == "__main__":
     end_id = arguments.end_id
     for book_id in range(start_id, end_id + 1):
         try:
-            book_data = parse_book(book_id)
-            download_txt(book_id, book_data, books_path)
-            download_image(book_data['image_url'], book_id, images_path)
+            book = parse_book(book_id)
+            download_txt(book_id, book, books_path)
+            download_image(book['image_url'], book_id, images_path)
         except HTTPError as http_error:
             logging.info(f'HTTP error occurred: {http_error}')
 
