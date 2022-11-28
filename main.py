@@ -7,12 +7,7 @@ from pathvalidate import sanitize_filename
 from bs4 import BeautifulSoup
 
 
-def parse_book(book_id):
-    url = 'https://tululu.org/'
-    response = requests.get(f'{url}b{book_id}/')
-    check_for_redirect(response, book_id)
-    soup = BeautifulSoup(response.text, 'lxml')
-
+def parse_book(soup):
     header_tag_text = soup.find('h1').text
     book_name, author = header_tag_text.split('::')
     book_name = book_name.strip()
@@ -99,9 +94,16 @@ if __name__ == "__main__":
     images_path = arguments.images_path
     start_id = arguments.start_id
     end_id = arguments.end_id
+
+    url = 'https://tululu.org/'
+
     for book_id in range(start_id, end_id + 1):
         try:
-            book = parse_book(book_id)
+            response = requests.get(f'{url}b{book_id}/')
+            check_for_redirect(response, book_id)
+            soup = BeautifulSoup(response.text, 'lxml')
+
+            book = parse_book(soup)
             download_txt(book_id, book, books_path)
             download_image(book['image_url'], book_id, images_path)
         except HTTPError as http_error:
