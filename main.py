@@ -43,7 +43,7 @@ def download_image(image_url, book_id, folder):
     image_url_elements = os.path.splitext(image_url)
     image_type = image_url_elements[1]
     file_dir = f'{folder}/{book_id}{image_type}'
-    image_link = urljoin('https://tululu.org', image_url)
+    image_link = urljoin('https://tululu.org/images', image_url)
     response = requests.get(image_link)
     response.raise_for_status()
 
