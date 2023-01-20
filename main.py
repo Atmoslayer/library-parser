@@ -72,10 +72,13 @@ def download_txt(book_id, book, folder):
         file.write('Жанры: ')
         for genre in book['genres']:
             file.write('%s' % f'{genre} ')
-        file.write(f'\n{response.text}')
-        file.write('\n\nКомментарии:\n')
-        for comment in book['comments']:
-            file.write('%s\n' % comment)
+        try:
+            file.write(f'\n{response.text}')
+            file.write('\n\nКомментарии:\n')
+            for comment in book['comments']:
+                file.write('%s\n' % comment)
+        except UnicodeEncodeError as unicode_error:
+            logging.info(f'\nUnicode encode error occurred: {unicode_error}')
 
     return os.path.join(file_dir)
 
@@ -106,10 +109,10 @@ if __name__ == "__main__":
             download_txt(book_id, book, books_path)
             download_image(book['image_url'], book_id, images_path)
         except HTTPError as http_error:
-            logging.info(f'HTTP error occurred: {http_error}')
+            logging.info(f'\nHTTP error occurred: {http_error}')
 
         except ConnectionError as connection_error:
-            logging.info(f'Connection error occurred: {connection_error}')
+            logging.info(f'\nConnection error occurred: {connection_error}')
             time.sleep(5)
 
 
