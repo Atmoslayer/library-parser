@@ -1,12 +1,3 @@
-import argparse
-import requests
-import os
-import logging
-import time
-from urllib.parse import urljoin
-from requests.exceptions import HTTPError, ConnectionError
-from pathvalidate import sanitize_filename
-from bs4 import BeautifulSoup
 import json
 from main import *
 from progress.bar import IncrementalBar
@@ -39,12 +30,14 @@ if __name__ == "__main__":
             category_page_response = requests.get(f'{category_page_url}/{page_number}')
             category_page_response.raise_for_status()
             category_page_soup = BeautifulSoup(category_page_response.text, 'lxml')
-            book_ids_tags = category_page_soup.find_all('table', class_='d_book')
-            bar = IncrementalBar(f'Books downloaded from page {page_number}', max=len(book_ids_tags))
+            book_selector = 'table.d_book'
+            books_ids_tags = category_page_soup.select(book_selector)
+            bar = IncrementalBar(f'Books downloaded from page {page_number}', max=len(books_ids_tags))
 
-            for book_id_tag in book_ids_tags:
+            for book_id_tag in books_ids_tags:
                 try:
-                    book_id = book_id_tag.find('a')['href']
+                    id_selector = 'a'
+                    book_id = book_id_tag.select_one(id_selector)['href']
                     purified_book_id = book_id.replace('/', '').replace('b', '')
                     book_url = f'https://tululu.org/b{purified_book_id}'
                     book_response = requests.get(book_url)

@@ -10,17 +10,21 @@ from bs4 import BeautifulSoup
 
 
 def parse_book(soup):
-    header_tag_text = soup.find('h1').text
+    header_selector = 'h1'
+    header_tag_text = soup.select_one(header_selector).text
     book_name, author = header_tag_text.split('::')
     book_name = book_name.strip()
     author = author.strip()
 
-    image_url = soup.find('div', class_='bookimage').find('img')['src']
+    image_selector = '.bookimage img'
+    image_url = soup.select_one(image_selector)['src']
 
-    comments_tags = soup.find_all('div', class_='texts')
-    comments = [comment_tag.find('span', class_='black').text for comment_tag in comments_tags if comments_tags]
+    comments_selector = '.texts .black'
+    comments_tags = soup.select(comments_selector)
+    comments = [comment_tag.text for comment_tag in comments_tags if comments_tags]
 
-    genre_tags = soup.find('span', class_='d_book').find_all('a')
+    genres_selector = 'span.d_book a'
+    genre_tags = soup.select(genres_selector)
     genres = [genre_tag.text for genre_tag in genre_tags if genre_tags]
 
     book = {
