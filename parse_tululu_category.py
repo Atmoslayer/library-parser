@@ -11,6 +11,18 @@ if __name__ == "__main__":
     parser.add_argument('--json_path', help='Enter path to save json file', type=str, default='json')
     parser.add_argument('--start_page', help='Enter start page number', default=1, type=int)
     parser.add_argument('--end_page', help='Enter end page number', default=10, type=int)
+    parser.add_argument(
+        '--skip_txt',
+        help='Enter "True" if you do not want to download books',
+        default=False,
+        type=bool
+    )
+    parser.add_argument(
+        '--skip_imgs',
+        help='Enter "True" if you do not want to download images',
+        default=False,
+        type=bool
+    )
 
     arguments = parser.parse_args()
     books_path = arguments.books_path
@@ -18,6 +30,8 @@ if __name__ == "__main__":
     json_path = arguments.json_path
     start_page = arguments.start_page
     end_page = arguments.end_page
+    skip_txt = arguments.skip_txt
+    skip_images = arguments.skip_imgs
 
     category_id = 'l55'
     url = 'https://tululu.org/'
@@ -47,8 +61,10 @@ if __name__ == "__main__":
                     books_data.append(book)
 
                     bar.next()
-                    download_txt(purified_book_id, book, books_path)
-                    download_image(book['image_url'], purified_book_id, images_path)
+                    if not skip_txt:
+                        download_txt(purified_book_id, book, books_path)
+                    if not skip_images:
+                        download_image(book['image_url'], purified_book_id, images_path)
 
                 except HTTPError as http_error:
                     logging.info(f'\nHTTP error occurred: {http_error}')
