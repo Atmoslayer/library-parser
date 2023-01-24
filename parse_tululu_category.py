@@ -41,6 +41,7 @@ if __name__ == "__main__":
         try:
             category_page_response = requests.get(f'{category_page_url}/{page_number}')
             category_page_response.raise_for_status()
+            check_for_redirect(category_page_response, page_number)
             category_page_soup = BeautifulSoup(category_page_response.text, 'lxml')
             book_selector = 'table.d_book'
             books_ids_tags = category_page_soup.select(book_selector)
@@ -51,9 +52,10 @@ if __name__ == "__main__":
                     id_selector = 'a'
                     book_id = book_id_tag.select_one(id_selector)['href']
                     purified_book_id = book_id.replace('/', '').replace('b', '')
-                    book_url = f'https://tululu.org/b{purified_book_id}'
+                    book_url = f'https://tululu.org/b{purified_book_id}/'
                     book_response = requests.get(book_url)
                     book_response.raise_for_status()
+                    check_for_redirect(book_response, book_id)
                     book_soup = BeautifulSoup(book_response.text, 'lxml')
                     book = parse_book(book_soup)
                     books_attributes.append(book)
