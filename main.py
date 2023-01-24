@@ -76,13 +76,10 @@ def download_txt(book_id, book, folder):
         file.write('Жанры: ')
         for genre in book['genres']:
             file.write('%s' % f'{genre} ')
-        try:
             file.write(f'\n{response.text}')
             file.write('\n\nКомментарии:\n')
             for comment in book['comments']:
                 file.write('%s\n' % comment)
-        except UnicodeEncodeError as unicode_error:
-            logging.info(f'\nUnicode encode error occurred: {unicode_error}')
 
     return os.path.join(file_dir)
 

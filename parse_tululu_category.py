@@ -62,7 +62,10 @@ if __name__ == "__main__":
 
                     bar.next()
                     if not skip_txt:
-                        download_txt(purified_book_id, book, books_path)
+                        try:
+                            download_txt(purified_book_id, book, books_path)
+                        except UnicodeEncodeError as unicode_error:
+                            logging.info(f'\nUnicode encode error occurred: {unicode_error}')
                     if not skip_images:
                         download_image(book['image_url'], purified_book_id, images_path)
 
