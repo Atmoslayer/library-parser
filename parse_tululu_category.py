@@ -34,7 +34,7 @@ if __name__ == "__main__":
     category_id = 'l55'
     url = 'https://tululu.org/'
     category_page_url = f'{url}{category_id}/'
-    books_data = []
+    books_attributes = []
 
     for page_number in range(start_page, end_page + 1):
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
                     book_response.raise_for_status()
                     book_soup = BeautifulSoup(book_response.text, 'lxml')
                     book = parse_book(book_soup)
-                    books_data.append(book)
+                    books_attributes.append(book)
 
                     bar.next()
                     if not skip_txt:
@@ -85,4 +85,4 @@ if __name__ == "__main__":
 
     with open(f'{file_dir}.json', 'w', encoding='utf8') as file:
 
-        json.dump(books_data, file, ensure_ascii=False, indent=3)
+        json.dump(books_attributes, file, ensure_ascii=False, indent=3)
