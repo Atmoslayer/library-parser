@@ -83,8 +83,6 @@ if __name__ == "__main__":
             logging.info(f'\nConnection error occurred: {connection_error}')
             time.sleep(5)
 
-    books_json = json.dumps(book)
-
     os.makedirs(json_path, exist_ok=True)
     file_dir = f'{json_path}/books'
 
