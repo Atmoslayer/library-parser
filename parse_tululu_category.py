@@ -14,14 +14,12 @@ if __name__ == "__main__":
     parser.add_argument(
         '--skip_txt',
         help='Enter "True" if you do not want to download books',
-        default=False,
-        type=bool
+        action='store_true'
     )
     parser.add_argument(
         '--skip_imgs',
         help='Enter "True" if you do not want to download images',
-        default=False,
-        type=bool
+        action='store_true'
     )
 
     arguments = parser.parse_args()
