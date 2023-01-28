@@ -9,7 +9,7 @@ from pathvalidate import sanitize_filename
 from bs4 import BeautifulSoup
 
 
-def parse_book(soup):
+def parse_book(soup, book_id):
     header_selector = 'h1'
     header_tag_text = soup.select_one(header_selector).text
     book_name, author = header_tag_text.split('::')
@@ -31,7 +31,8 @@ def parse_book(soup):
         'author': author,
         'comments': comments,
         'image_url': image_url,
-        'genres': genres
+        'genres': genres,
+        'book_id': book_id
     }
 
     return book
@@ -105,7 +106,7 @@ if __name__ == "__main__":
             check_for_redirect(response, book_id)
             soup = BeautifulSoup(response.text, 'lxml')
 
-            book = parse_book(soup)
+            book = parse_book(soup, book_id)
             download_txt(book_id, book, books_path)
             download_image(book['image_url'], book_id, images_path)
         except HTTPError as http_error:
