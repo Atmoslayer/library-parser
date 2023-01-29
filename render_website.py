@@ -37,6 +37,7 @@ if __name__ == '__main__':
             purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
             if 'nopic' in purified_image_url:
                 purified_image_url = None
+
             books_attributes.append(
                 {
                     'book_name': book['book_name'],
@@ -45,6 +46,7 @@ if __name__ == '__main__':
                     'image_url': purified_image_url,
                     'genres': book['genres'],
                     'image_path': images_path,
+                    'book_path': books_path,
                     'book_id': book['book_id']
                 }
             )
