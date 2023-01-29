@@ -4,7 +4,7 @@ import logging
 import json
 
 from http.server import HTTPServer, SimpleHTTPRequestHandler
-
+from livereload import Server, shell
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 if __name__ == '__main__':
@@ -54,7 +54,9 @@ if __name__ == '__main__':
 
     with open('index.html', 'w', encoding="utf8") as file:
         file.write(rendered_page)
+    # HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
 
-    server = HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
+    server = Server()
+    server.watch('index.html', shell('make html', cwd='docs'))
     logging.info('Starting development server at http://127.0.0.1:8000/')
-    server.serve_forever()
+    server.serve()
