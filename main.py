@@ -26,8 +26,17 @@ def parse_book(soup, book_id):
     genre_tags = soup.select(genres_selector)
     genres = [genre_tag.text for genre_tag in genre_tags if genre_tags]
 
+    purified_book_name = book_name \
+        .replace(':', '') \
+        .replace('/', '') \
+        .replace('?', '') \
+        .replace('*', '') \
+        .replace('|', '') \
+        .replace('<', '') \
+        .replace('>', '')
+
     book = {
-        'book_name': book_name,
+        'book_name': purified_book_name,
         'author': author,
         'comments': comments,
         'image_url': image_url,
