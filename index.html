@@ -11,28 +11,55 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  
-  {% for book_attributes in books_attributes %}
-      <div class="card mb-3" style="max-width: 540px;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    {% if  not book_attributes.image_url%}
-                        <img src="/{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                    {% else %}
-                        <img src="/{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                    {% endif %}
-                </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
-                    <p class="card-text">{{book_attributes.author}}</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                {% for book_attributes in books_attributes_col_1 %}
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                {% if  not book_attributes.image_url%}
+                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
+                                {% else %}
+                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
+                                    <p class="card-text">{{book_attributes.author}}</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
+            <div class="col">
+                {% for book_attributes in books_attributes_col_2 %}
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                {% if  not book_attributes.image_url%}
+                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
+                                {% else %}
+                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
+                                    <p class="card-text">{{book_attributes.author}}</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
+<!--            <div class="w-100"></div>-->
         </div>
-    {% endfor %}
-    
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

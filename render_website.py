@@ -1,11 +1,13 @@
 import argparse
 import logging
+import math
 
 import json
 
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from livereload import Server, shell
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from more_itertools import chunked
 
 if __name__ == '__main__':
 
@@ -46,10 +48,15 @@ if __name__ == '__main__':
                     'book_id': book['book_id']
                 }
             )
-            print(purified_image_url)
+
+    elements_quantity = math.ceil(len(books_attributes) / 2)
+    divided_books_attributes = list(chunked(books_attributes, elements_quantity))
+    books_attributes_col_1 = divided_books_attributes[0]
+    books_attributes_col_2 = divided_books_attributes[1]
 
     rendered_page = template.render(
-        books_attributes=books_attributes
+        books_attributes_col_1=books_attributes_col_1,
+        books_attributes_col_2=books_attributes_col_2
     )
 
     with open('index.html', 'w', encoding="utf8") as file:
