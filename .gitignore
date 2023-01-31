@@ -13,6 +13,7 @@ __pycache__/
 env/
 db.sqlite3/
 pictures/
+pages/
 media/
 build/
 staticfiles/
