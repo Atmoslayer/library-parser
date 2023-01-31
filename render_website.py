@@ -1,6 +1,7 @@
 import argparse
 import logging
 import math
+import os
 
 import json
 
@@ -16,11 +17,15 @@ if __name__ == '__main__':
     parser.add_argument('--books_path', help='Enter path to access books', type=str, default='books')
     parser.add_argument('--images_path', help='Enter path to access images', type=str, default='images')
     parser.add_argument('--json_path', help='Enter path to save json file', type=str, default='json')
+    parser.add_argument('--pages_path', help='Enter path to save pages', type=str, default='pages')
+    parser.add_argument('--books_quantity', help='Enter the number of books per page', type=int, default=20)
 
     arguments = parser.parse_args()
     books_path = arguments.books_path
     images_path = arguments.images_path
     json_path = arguments.json_path
+    pages_path = arguments.pages_path
+    books_quantity = arguments.books_quantity
 
     env = Environment(
         loader=FileSystemLoader('.'),
@@ -51,19 +56,27 @@ if __name__ == '__main__':
                 }
             )
 
-    elements_quantity = math.ceil(len(books_attributes) / 2)
-    divided_books_attributes = list(chunked(books_attributes, elements_quantity))
-    books_attributes_col_1 = divided_books_attributes[0]
-    books_attributes_col_2 = divided_books_attributes[1]
+    os.makedirs(pages_path, exist_ok=True)
 
-    rendered_page = template.render(
-        books_attributes_col_1=books_attributes_col_1,
-        books_attributes_col_2=books_attributes_col_2
-    )
+    splitted_books_attributes = list(chunked(books_attributes, books_quantity))
 
-    with open('index.html', 'w', encoding="utf8") as file:
-        file.write(rendered_page)
-    # HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
+    for part_of_books_attributes in splitted_books_attributes:
+
+        page_index = splitted_books_attributes.index(part_of_books_attributes) + 1
+        template_dir = f'{pages_path}/index{page_index}'
+
+        books_per_col = math.ceil(len(part_of_books_attributes) / 2)
+        divided_books_attributes = list(chunked(part_of_books_attributes, books_per_col))
+        books_attributes_col_1 = divided_books_attributes[0]
+        books_attributes_col_2 = divided_books_attributes[1]
+
+        rendered_page = template.render(
+            books_attributes_col_1=books_attributes_col_1,
+            books_attributes_col_2=books_attributes_col_2
+        )
+
+        with open(f'{template_dir}.html', 'w', encoding="utf8") as file:
+            file.write(rendered_page)
 
     server = Server()
     server.watch('index.html', shell('make html', cwd='docs'))
