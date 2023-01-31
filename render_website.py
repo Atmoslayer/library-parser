@@ -80,5 +80,5 @@ if __name__ == '__main__':
 
     server = Server()
     server.watch('index.html', shell('make html', cwd='docs'))
-    logging.info('Starting development server at http://127.0.0.1:8000/')
+    logging.info('Starting development server at http://127.0.0.1:5500/')
     server.serve()
