@@ -63,20 +63,26 @@ if __name__ == '__main__':
     for part_of_books_attributes in splitted_books_attributes:
 
         page_index = splitted_books_attributes.index(part_of_books_attributes) + 1
-        template_dir = f'{pages_path}/index{page_index}'
+        templates_dir = f'{pages_path}/index{page_index}'
 
         books_per_col = math.ceil(len(part_of_books_attributes) / 2)
         divided_books_attributes = list(chunked(part_of_books_attributes, books_per_col))
         books_attributes_col_1 = divided_books_attributes[0]
         books_attributes_col_2 = divided_books_attributes[1]
-
+        page_dir = f'{templates_dir}.html'
         rendered_page = template.render(
             books_attributes_col_1=books_attributes_col_1,
-            books_attributes_col_2=books_attributes_col_2
+            books_attributes_col_2=books_attributes_col_2,
+            pages_path=pages_path,
+            page_index=page_index,
+            pages_quantity=len(splitted_books_attributes)
         )
 
-        with open(f'{template_dir}.html', 'w', encoding="utf8") as file:
+        with open(page_dir, 'w', encoding="utf8") as file:
             file.write(rendered_page)
+
+    with open('index.html', 'w', encoding="utf8") as file:
+        file.write(rendered_page)
 
     server = Server()
     server.watch('index.html', shell('make html', cwd='docs'))
