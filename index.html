@@ -13,20 +13,28 @@
   <body>
     <nav aria-label="Page navigation" style="margin-top: 20px;">
         <ul class="pagination justify-content-center">
-            {% if page_index == 1 %}
-                <li class="page-item disabled"><a class="page-link" href="/{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
-            {% else %}
-                <li class="page-item"><a class="page-link" href="/{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
-            {% endif %}
-                {% for page_number in range(pages_quantity) %}
-                    <li class="page-item"><a class="page-link" href="/{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
-                {% endfor %}
+            
+                <li class="page-item"><a class="page-link" href="/pages/index6.html">Назад</a></li>
+            
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index1.html">1</a></li>
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index2.html">2</a></li>
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index3.html">3</a></li>
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index4.html">4</a></li>
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index5.html">5</a></li>
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index6.html">6</a></li>
+                
+                    <li class="page-item"><a class="page-link" href="/pages/index7.html">7</a></li>
+                
 
-            {% if page_index == pages_quantity %}
-                <li class="page-item disabled"><a class="page-link" href="/{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
-            {% else %}
-                <li class="page-item"><a class="page-link" href="/{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
-             {% endif %}
+            
+                <li class="page-item disabled"><a class="page-link" href="/pages/index8.html">Вперед</a></li>
+            
 
         </ul>
     </nav>
@@ -35,54 +43,110 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                {% for book_attributes in books_attributes_col_1 %}
+                
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                {% if  not book_attributes.image_url%}
-                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                                {% else %}
-                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                                {% endif %}
+                                
+                                    <img src="/images/19031.gif" class="card-img" alt="Адские лики Марса_cover">
+                                
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
-                                    <p class="card-text">{{book_attributes.author}}</p>
-                                    {% for genres in book_attributes.genres %}
-                                        <h6><span class="badge badge-secondary">{{genres}}</span></h6>
-                                    {% endfor %}
-                                    <a class="card-text" href="/{{book_attributes.book_path}}/{{book_attributes.book_id}}.{{book_attributes.book_name}}.txt" target="_blank"><small class="text-muted">Читать</small></a>
+                                    <h5 class="card-title">Адские лики Марса</h5>
+                                    <p class="card-text">Нечай Дмитрий</p>
+                                    
+                                        <h6><span class="badge badge-secondary">Научная фантастика</span></h6>
+                                    
+                                    <a class="card-text" href="/books/19031.Адские лики Марса.txt" target="_blank"><small class="text-muted">Читать</small></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                {% endfor %}
+                
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                
+                                    <img src="/images/19033.gif" class="card-img" alt="Адский мир (Мир Туманов - 3)_cover">
+                                
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Адский мир (Мир Туманов - 3)</h5>
+                                    <p class="card-text">Грин Саймон</p>
+                                    
+                                        <h6><span class="badge badge-secondary">Научная фантастика</span></h6>
+                                    
+                                    <a class="card-text" href="/books/19033.Адский мир (Мир Туманов - 3).txt" target="_blank"><small class="text-muted">Читать</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                
+                                    <img src="/images/19035.gif" class="card-img" alt="Адский модерн_cover">
+                                
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Адский модерн</h5>
+                                    <p class="card-text">Биленкин Дмитрий Александрович</p>
+                                    
+                                        <h6><span class="badge badge-secondary">Научная фантастика</span></h6>
+                                    
+                                    <a class="card-text" href="/books/19035.Адский модерн.txt" target="_blank"><small class="text-muted">Читать</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
             </div>
             <div class="col">
-                {% for book_attributes in books_attributes_col_2 %}
+                
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                {% if  not book_attributes.image_url%}
-                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                                {% else %}
-                                    <img src="/{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                                {% endif %}
+                                
+                                    <img src="/images/19036.jpg" class="card-img" alt="Адский огонь_cover">
+                                
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
-                                    <p class="card-text">{{book_attributes.author}}</p>
-                                    {% for genres in book_attributes.genres %}
-                                        <h6><span class="badge badge-secondary">{{genres}}</span></h6>
-                                    {% endfor %}
-                                    <a class="card-text" href="/{{book_attributes.book_path}}/{{book_attributes.book_id}}.{{book_attributes.book_name}}.txt" target="_blank"><small class="text-muted">Читать</small></a>
+                                    <h5 class="card-title">Адский огонь</h5>
+                                    <p class="card-text">Азимов Айзек</p>
+                                    
+                                        <h6><span class="badge badge-secondary">Научная фантастика</span></h6>
+                                    
+                                    <a class="card-text" href="/books/19036.Адский огонь.txt" target="_blank"><small class="text-muted">Читать</small></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                {% endfor %}
+                
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                
+                                    <img src="/images/19037.gif" class="card-img" alt="Адский житель_cover">
+                                
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Адский житель</h5>
+                                    <p class="card-text">Де Ла Мотт</p>
+                                    
+                                        <h6><span class="badge badge-secondary">Научная фантастика</span></h6>
+                                    
+                                    <a class="card-text" href="/books/19037.Адский житель.txt" target="_blank"><small class="text-muted">Читать</small></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
             </div>
 <!--            <div class="w-100"></div>-->
         </div>
