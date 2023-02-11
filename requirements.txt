@@ -5,3 +5,5 @@ pathvalidate==2.5.2
 progress==1.6
 Jinja2==3.1.2
 livereload==2.6.3
+more-itertools==9.0.0
+
