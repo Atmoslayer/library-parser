@@ -31,7 +31,7 @@ if __name__ == '__main__':
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html', 'xml'])
     )
-    template = env.get_template('index.html')
+    template = env.get_template(f'{pages_path}/index.html')
 
     file_dir = f'{json_path}/books'
     books_attributes = []
@@ -85,6 +85,6 @@ if __name__ == '__main__':
         file.write(rendered_page)
 
     server = Server()
-    server.watch('index.html', shell('make html', cwd='docs'))
+    server.watch(f'{pages_path}/index.html', shell('make html', cwd='docs'))
     logging.info('Starting development server at http://127.0.0.1:5500/')
     server.serve()
