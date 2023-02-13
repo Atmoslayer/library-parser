@@ -18,7 +18,11 @@
                 <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
             {% endif %}
                 {% for page_number in range(pages_quantity) %}
-                    <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
+                    {% if page_index ==  page_number + 1%}
+                        <li class="page-item active"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
+                    {% else %}
+                        <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
+                    {% endif %}
                 {% endfor %}
             {% if page_index == pages_quantity %}
                 <li class="page-item disabled"><a class="page-link" href="../{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
