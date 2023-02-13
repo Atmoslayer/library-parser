@@ -68,7 +68,7 @@ Python3 должен быть уже установлен.
 ```
 >>>python3 render_website.py --books_quantity 20
 ```
-После запуска скрипта сайт запускается по следующему [адресу](http://127.0.0.1:5500).
+После запуска скрипта сайт запускается по следующему [адресу](http://127.0.0.1:5500/pages/index1.html).
 ## Пример сайта
 У проекта существует [тестовая версия сайта](https://atmoslayer.github.io/library-parser/pages/index1.html), размещенная с помощью сервиса [Github pages](https://pages.github.com/).
 ## Цель проекта
