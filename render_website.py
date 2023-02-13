@@ -81,7 +81,7 @@ if __name__ == '__main__':
         with open(page_dir, 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
-    with open('index.html', 'w', encoding="utf8") as file:
+    with open(f'{pages_path}/index.html', 'w', encoding="utf8") as file:
         file.write(rendered_page)
 
     server = Server()
