@@ -5,7 +5,6 @@
 если они есть, обложки скачиваются в отдельную папку. В случае скачивания книг по жанру дополнительно можно указать путь к json файлу, в который записывается информация о книгах, 
 можно запустить скрипт без скачивания книг и/или картинок. Используя скаченные книги и всю информацию о них можно запустить сайт
 с их отображением.
-
 ## Как установить
 Python3 должен быть уже установлен. 
 Затем используйте `pip` (или `pip3`, если есть конфликт с Python2) для установки зависимостей:
@@ -13,9 +12,7 @@ Python3 должен быть уже установлен.
 >>>pip install -r requirements.txt
 ```
 ## Сценарии использования
-
 ### Скачивание книг по id
-
 Для запуска парсинга по id книг используется следующая команда:
 ```
 >>>python3 main.py
@@ -25,16 +22,13 @@ Python3 должен быть уже установлен.
 ```
 >>>python3 main.py --start_id 11 --end_id 15
 ```
-
 По умолчанию в папке проекта создадутся папки для скачивания книг и их обложек.
 Свои директории можно указать 
 с помощью аргументов `--books_path` , `--images_path`
 ```
 >>>python3 main.py --books_path C:\Users\atmoslayer\Documents\books --images_path C:\Users\atmoslayer\Documents\images
 ```
-
 ### Скачивание книг по жанру "Научная фантастика"
-
 Для запуска парсинга по указанному жанру используется следующая команда:
 ```
 >>>python3 parse_tululu_category.py
@@ -44,30 +38,23 @@ Python3 должен быть уже установлен.
 ```
 >>>python3 parse_tululu_category.py --start_page 1 --end_page 2
 ```
-
-
 Чтобы пропустить скачивание текста книг, используется `--skip_txt`:
 ```
 >>>python3 parse_tululu_category.py --skip_txt
 ```
-
 Чтобы пропустить скачивание обложек книг, используется `--skip_imgs`:
 ```
 >>>python3 parse_tululu_category.py --skip_imgs
 ```
-
 По умолчанию в папке проекта создадутся папки для скачивания книг и их обложек, в случае парсинга по жанру
 создаётся папка для сохранения json файла с информацией о книгах. Свои директории можно указать 
 с помощью аргументов `--books_path` , `--images_path` и `--json_path`:
 ```
 >>>python3 parse_tululu_category.py --books_path C:\Users\atmoslayer\Documents\books --json_path C:\Users\atmoslayer\Documents\json
 ```
-
 ### Запуск сайта
-
 Информация для сайта берётся из папок с книгами, их обложками и json файлом. При запуске необходимо указать пути к ним с помощью
 аргументов `--books_path` , `--images_path` и `--json_path`:
-
 ```
 >>>python3 render_website.py --books_path C:\Users\atmoslayer\Documents\books --json_path C:\Users\atmoslayer\Documents\json
 ```
@@ -83,6 +70,6 @@ Python3 должен быть уже установлен.
 ```
 После запуска скрипта сайт запускается по следующему [адресу](http://127.0.0.1:5500).
 ## Пример сайта
-Тестовая версия сайта размещена с помощью сервиса [Github pages](https://pages.github.com/) по следующему [адресу](https://atmoslayer.github.io/library-parser/pages/index1.html)
+У проекта существует [тестовая версия сайта](https://atmoslayer.github.io/library-parser/pages/index1.html), размещенная с помощью сервиса [Github pages](https://pages.github.com/).
 ## Цель проекта
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
