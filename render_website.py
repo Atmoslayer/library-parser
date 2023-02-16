@@ -60,11 +60,8 @@ if __name__ == '__main__':
 
         books_cards_per_col = math.ceil(len(part_of_books_attributes) / 2)
         divided_books_attributes = list(chunked(part_of_books_attributes, books_cards_per_col))
-        books_attributes_col_1 = divided_books_attributes[0]
-        books_attributes_col_2 = divided_books_attributes[1]
         rendered_page = template.render(
-            books_attributes_col_1=books_attributes_col_1,
-            books_attributes_col_2=books_attributes_col_2,
+            divided_books_attributes=divided_books_attributes,
             pages_path=pages_path,
             page_index=page_number,
             pages_quantity=len(splitted_books_attributes)

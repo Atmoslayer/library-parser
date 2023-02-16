@@ -33,56 +33,33 @@
     </nav>
     <div class="container">
         <div class="row">
+            {% for col_books_attributes  in divided_books_attributes %}
             <div class="col">
-                {% for book_attributes in books_attributes_col_1 %}
+                {% for books_attributes in col_books_attributes %}
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class="col-md-4">
-                                {% if  not book_attributes.image_url%}
-                                    <img src="../{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
+                                {% if  not books_attributes.image_url%}
+                                    <img src="../{{books_attributes.image_path}}/{{books_attributes.book_id}}.gif" class="card-img" alt="{{books_attributes.book_name}}_cover">
                                 {% else %}
-                                    <img src="../{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
+                                    <img src="../{{books_attributes.image_path}}/{{books_attributes.image_url}}" class="card-img" alt="{{books_attributes.book_name}}_cover">
                                 {% endif %}
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
-                                    <p class="card-text">{{book_attributes.author}}</p>
-                                    {% for genres in book_attributes.genres %}
+                                    <h5 class="card-title">{{books_attributes.book_name}}</h5>
+                                    <p class="card-text">{{books_attributes.author}}</p>
+                                    {% for genres in books_attributes.genres %}
                                         <h6><span class="badge badge-secondary">{{genres}}</span></h6>
                                     {% endfor %}
-                                    <a class="card-text" href="../{{book_attributes.book_path}}/{{book_attributes.book_id}}.{{book_attributes.book_name}}.txt" target="_blank"><h4><small class="text-muted">Читать</small></h4></a>
+                                    <a class="card-text" href="../{{books_attributes.book_path}}/{{books_attributes.book_id}}.{{books_attributes.book_name}}.txt" target="_blank"><h4><small class="text-muted">Читать</small></h4></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 {% endfor %}
             </div>
-            <div class="col">
-                {% for book_attributes in books_attributes_col_2 %}
-                    <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row no-gutters">
-                            <div class="col-md-4">
-                                {% if  not book_attributes.image_url%}
-                                    <img src="../{{book_attributes.image_path}}/{{book_attributes.book_id}}.gif" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                                {% else %}
-                                    <img src="../{{book_attributes.image_path}}/{{book_attributes.image_url}}" class="card-img" alt="{{book_attributes.book_name}}_cover">
-                                {% endif %}
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">{{book_attributes.book_name}}</h5>
-                                    <p class="card-text">{{book_attributes.author}}</p>
-                                    {% for genres in book_attributes.genres %}
-                                        <h6><span class="badge badge-secondary">{{genres}}</span></h6>
-                                    {% endfor %}
-                                    <a class="card-text" href="../{{book_attributes.book_path}}/{{book_attributes.book_id}}.{{book_attributes.book_name}}.txt" target="_blank"><h4><small class="text-muted">Читать</small></h4></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
+            {% endfor %}
         </div>
     </div>
     <script src="../static/bootstrap.bundle.min.js"></script>
