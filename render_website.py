@@ -54,10 +54,9 @@ if __name__ == '__main__':
 
     splitted_books_attributes = list(chunked(books_attributes, books_quantity))
 
-    for part_of_books_attributes in splitted_books_attributes:
+    for page_number, part_of_books_attributes in enumerate(splitted_books_attributes):
 
-        page_index = splitted_books_attributes.index(part_of_books_attributes) + 1
-        templates_dir = f'{pages_path}/index{page_index}'
+        templates_dir = f'{pages_path}/index{page_number + 1}'
 
         books_per_col = math.ceil(len(part_of_books_attributes) / 2)
         divided_books_attributes = list(chunked(part_of_books_attributes, books_per_col))
@@ -68,7 +67,7 @@ if __name__ == '__main__':
             books_attributes_col_1=books_attributes_col_1,
             books_attributes_col_2=books_attributes_col_2,
             pages_path=pages_path,
-            page_index=page_index,
+            page_index=page_number + 1,
             pages_quantity=len(splitted_books_attributes)
         )
 
