@@ -73,8 +73,9 @@ if __name__ == '__main__':
         with open(f'{pages_dir}.html', 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
-
     server = Server()
-    server.watch(f'{pages_path}/index.html', shell('make html', cwd='docs'))
+    for page in os.listdir(pages_path):
+        page = os.path.join(pages_path, page)
+        server.watch(page, shell('make html', cwd='docs'))
     logging.info('Starting development server at http://127.0.0.1:5500/')
     server.serve()
