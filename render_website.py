@@ -10,9 +10,8 @@ from more_itertools import chunked
 
 
 def parse_json(json_path, books_path, images_path):
-    file_dir = f'{json_path}/books'
 
-    with open(f'{file_dir}.json', 'r', encoding='utf-8') as data:
+    with open(f'{json_path}/books.json', 'r', encoding='utf-8') as data:
         books_attributes = json.load(data)
         for book in books_attributes:
             purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
