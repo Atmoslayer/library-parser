@@ -62,7 +62,6 @@ if __name__ == '__main__':
         divided_books_attributes = list(chunked(part_of_books_attributes, books_cards_per_col))
         books_attributes_col_1 = divided_books_attributes[0]
         books_attributes_col_2 = divided_books_attributes[1]
-        page_dir = f'{pages_dir}.html'
         rendered_page = template.render(
             books_attributes_col_1=books_attributes_col_1,
             books_attributes_col_2=books_attributes_col_2,
@@ -71,7 +70,7 @@ if __name__ == '__main__':
             pages_quantity=len(splitted_books_attributes)
         )
 
-        with open(page_dir, 'w', encoding="utf8") as file:
+        with open(f'{pages_dir}.html', 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
 
