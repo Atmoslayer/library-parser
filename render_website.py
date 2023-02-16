@@ -2,20 +2,19 @@ import argparse
 import logging
 import math
 import os
-
 import json
-
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from livereload import Server, shell
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from more_itertools import chunked
 
+
 if __name__ == '__main__':
 
     logging.basicConfig(level=logging.INFO)
     parser = argparse.ArgumentParser(description='Website render')
-    parser.add_argument('--books_path', help='Enter path to access books', type=str, default='books')
-    parser.add_argument('--images_path', help='Enter path to access images', type=str, default='images')
+    parser.add_argument('--books_path', help='Enter path to access books', type=str, default='media/books')
+    parser.add_argument('--images_path', help='Enter path to access images', type=str, default='media/images')
     parser.add_argument('--json_path', help='Enter path to save json file', type=str, default='json')
     parser.add_argument('--pages_path', help='Enter path to save pages', type=str, default='pages')
     parser.add_argument('--books_quantity', help='Enter the number of books per page', type=int, default=20)

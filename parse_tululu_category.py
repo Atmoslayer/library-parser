@@ -6,8 +6,8 @@ from progress.bar import IncrementalBar
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     parser = argparse.ArgumentParser(description='Library category parser')
-    parser.add_argument('--books_path', help='Enter path to save books', type=str, default='books')
-    parser.add_argument('--images_path', help='Enter path to save images', type=str, default='images')
+    parser.add_argument('--books_path', help='Enter path to save books', type=str, default='media/books')
+    parser.add_argument('--images_path', help='Enter path to save images', type=str, default='media/timages')
     parser.add_argument('--json_path', help='Enter path to save json file', type=str, default='json')
     parser.add_argument('--start_page', help='Enter start page number', default=1, type=int)
     parser.add_argument('--end_page', help='Enter end page number', default=10, type=int)
