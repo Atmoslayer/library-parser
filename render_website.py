@@ -70,7 +70,7 @@ if __name__ == '__main__':
             pages_quantity=len(splitted_books_attributes)
         )
 
-        with open(f'{pages_dir}.html', 'w', encoding="utf8") as file:
+        with open(f'{pages_dir}.html', 'w', encoding='utf8') as file:
             file.write(rendered_page)
 
     server = Server()
