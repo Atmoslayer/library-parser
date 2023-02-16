@@ -9,6 +9,22 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from more_itertools import chunked
 
 
+def parse_json(json_path, books_path, images_path):
+    file_dir = f'{json_path}/books'
+
+    with open(f'{file_dir}.json', 'r', encoding='utf-8') as data:
+        books_attributes = json.load(data)
+        for book in books_attributes:
+            purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
+            if 'nopic' in purified_image_url:
+                purified_image_url = None
+            book['image_url'] = purified_image_url
+            book['book_path'] = books_path
+            book['image_path'] = images_path
+
+        return books_attributes
+
+
 if __name__ == '__main__':
 
     logging.basicConfig(level=logging.INFO)
@@ -32,28 +48,7 @@ if __name__ == '__main__':
     )
     template = env.get_template(f'{pages_path}/index.html')
 
-    file_dir = f'{json_path}/books'
-    books_attributes = []
-
-    with open(f'{file_dir}.json', 'r', encoding='utf-8') as data:
-        books_json = json.load(data)
-        for book in books_json:
-            purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
-            if 'nopic' in purified_image_url:
-                purified_image_url = None
-
-            books_attributes.append(
-                {
-                    'book_name': book['book_name'],
-                    'author': book['author'],
-                    'comments': book['comments'],
-                    'image_url': purified_image_url,
-                    'genres': book['genres'],
-                    'image_path': images_path,
-                    'book_path': books_path,
-                    'book_id': book['book_id']
-                }
-            )
+    books_attributes = parse_json(json_path, books_path, images_path)
 
     os.makedirs(pages_path, exist_ok=True)
 
