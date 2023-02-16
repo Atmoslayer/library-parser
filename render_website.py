@@ -25,6 +25,27 @@ def parse_json(json_path, books_path, images_path):
         return books_attributes
 
 
+def render_pages(books_attributes, books_quantity, pages_path):
+
+    splitted_books_attributes = list(chunked(books_attributes, books_quantity))
+
+    for page_number, part_of_books_attributes in enumerate(splitted_books_attributes, start=1):
+
+        pages_dir = f'{pages_path}/index{page_number}'
+
+        books_cards_per_col = math.ceil(len(part_of_books_attributes) / 2)
+        divided_books_attributes = list(chunked(part_of_books_attributes, books_cards_per_col))
+        rendered_page = template.render(
+            divided_books_attributes=divided_books_attributes,
+            pages_path=pages_path,
+            page_index=page_number,
+            pages_quantity=len(splitted_books_attributes)
+        )
+
+        with open(f'{pages_dir}.html', 'w', encoding='utf8') as file:
+            file.write(rendered_page)
+
+
 if __name__ == '__main__':
 
     logging.basicConfig(level=logging.INFO)
@@ -49,26 +70,9 @@ if __name__ == '__main__':
     template = env.get_template('/template.html')
 
     books_attributes = parse_json(json_path, books_path, images_path)
+    render_pages(books_attributes, books_quantity, pages_path)
 
     os.makedirs(pages_path, exist_ok=True)
-
-    splitted_books_attributes = list(chunked(books_attributes, books_quantity))
-
-    for page_number, part_of_books_attributes in enumerate(splitted_books_attributes, start=1):
-
-        pages_dir = f'{pages_path}/index{page_number}'
-
-        books_cards_per_col = math.ceil(len(part_of_books_attributes) / 2)
-        divided_books_attributes = list(chunked(part_of_books_attributes, books_cards_per_col))
-        rendered_page = template.render(
-            divided_books_attributes=divided_books_attributes,
-            pages_path=pages_path,
-            page_index=page_number,
-            pages_quantity=len(splitted_books_attributes)
-        )
-
-        with open(f'{pages_dir}.html', 'w', encoding='utf8') as file:
-            file.write(rendered_page)
 
     server = Server()
     for page in os.listdir(pages_path):
