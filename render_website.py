@@ -46,7 +46,7 @@ if __name__ == '__main__':
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html', 'xml'])
     )
-    template = env.get_template(f'{pages_path}/index.html')
+    template = env.get_template('/template.html')
 
     books_attributes = parse_json(json_path, books_path, images_path)
 
@@ -75,8 +75,6 @@ if __name__ == '__main__':
         with open(page_dir, 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
-    with open(f'{pages_path}/index.html', 'w', encoding="utf8") as file:
-        file.write(rendered_page)
 
     server = Server()
     server.watch(f'{pages_path}/index.html', shell('make html', cwd='docs'))
