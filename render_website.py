@@ -14,14 +14,20 @@ def parse_json(json_path, books_path, images_path):
     with open(f'{json_path}/books.json', 'r', encoding='utf-8') as data:
         books_attributes = json.load(data)
         for book in books_attributes:
-            purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
-            if 'nopic' in purified_image_url:
-                purified_image_url = None
-            book['image_url'] = purified_image_url
-            book['book_path'] = books_path
-            book['image_path'] = images_path
+            book_path = f'{books_path}/{book["book_id"]}.{book["book_name"]}.txt'
+            if not os.path.exists(book_path):
+                book['book_name'] = None
+            else:
+                purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
+                if 'nopic' in purified_image_url:
+                    purified_image_url = None
+                book['image_url'] = purified_image_url
+                book['book_path'] = books_path
+                book['image_path'] = images_path
 
-        return books_attributes
+        purified_books_attributes = []
+        [purified_books_attributes for book in books_attributes if book['book_name']]
+        return purified_books_attributes
 
 
 def render_pages(books_attributes, books_quantity, pages_path):
@@ -33,6 +39,7 @@ def render_pages(books_attributes, books_quantity, pages_path):
         pages_dir = f'{pages_path}/index{page_number}'
 
         books_cards_per_col = math.ceil(len(part_of_books_attributes) / 2)
+
         divided_books_attributes = list(chunked(part_of_books_attributes, books_cards_per_col))
         rendered_page = template.render(
             divided_books_attributes=divided_books_attributes,
