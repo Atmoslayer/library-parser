@@ -22,11 +22,11 @@ Python3 должен быть уже установлен.
 ```
 >>>python3 main.py --start_id 11 --end_id 15
 ```
-По умолчанию в папке проекта создадутся папки для скачивания книг и их обложек.
+По умолчанию в каталоге media создадутся папки для скачивания книг и их обложек.
 Свои директории можно указать 
 с помощью аргументов `--books_path` , `--images_path`
 ```
->>>python3 main.py --books_path C:\Users\atmoslayer\Documents\books --images_path C:\Users\atmoslayer\Documents\images
+>>>python3 main.py --books_path C:\Users\atmoslayer\Documents\media\books --images_path C:\Users\atmoslayer\Documents\media\images
 ```
 ### Скачивание книг по жанру "Научная фантастика"
 Для запуска парсинга по указанному жанру используется следующая команда:
@@ -46,23 +46,23 @@ Python3 должен быть уже установлен.
 ```
 >>>python3 parse_tululu_category.py --skip_imgs
 ```
-По умолчанию в папке проекта создадутся папки для скачивания книг и их обложек, в случае парсинга по жанру
+По умолчанию в каталоге media создадутся папки для скачивания книг и их обложек, в случае парсинга по жанру
 создаётся папка для сохранения json файла с информацией о книгах. Свои директории можно указать 
 с помощью аргументов `--books_path` , `--images_path` и `--json_path`:
 ```
->>>python3 parse_tululu_category.py --books_path C:\Users\atmoslayer\Documents\books --json_path C:\Users\atmoslayer\Documents\json
+>>>python3 parse_tululu_category.py --books_path C:\Users\atmoslayer\Documents\media\books --json_path C:\Users\atmoslayer\Documents\json
 ```
-### Запуск сайта
-Информация для сайта берётся из папок с книгами, их обложками и json файлом. При запуске необходимо указать пути к ним с помощью
+### Запуск сайта в режиме оффлайн
+Информация для сайта берётся из каталога media, из папок с книгами, их обложками и json файлом. При запуске необходимо указать полные пути к ним с помощью
 аргументов `--books_path` , `--images_path` и `--json_path`:
 ```
->>>python3 render_website.py --books_path C:\Users\atmoslayer\Documents\books --json_path C:\Users\atmoslayer\Documents\json
+>>>python3 render_website.py --books_path C:\Users\atmoslayer\Documents\media\books --json_path C:\Users\atmoslayer\Documents\json
 ```
-По умолчанию будут указаны папки `books`, `images`, `json`.
+По умолчанию будут указаны папки `media/books`, `media/images`, `json`.
 Информация о книгах размещается по нескольким страницам. При запуске можно указать путь к папке для сохранения страниц
 с помощью аргумента `--pages_path` (по умолчанию указано `pages`):
 ```
->>>python3 render_website.py --pages_path C:\Users\atmoslayer\Documents\pages
+>>>python3 render_website.py --pages_path C:\Users\atmoslayer\Documents\media\pages
 ```
 Количество книг на странице тоже можно указать, для этого используется аргумент `--books_quantity`, по умолчанию установлено значение 20:
 ```
