@@ -13,7 +13,6 @@ __pycache__/
 env/
 db.sqlite3/
 pictures/
-media/
 build/
 staticfiles/
 develop-eggs/
