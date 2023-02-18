@@ -2,6 +2,8 @@ import argparse
 import logging
 import math
 import os
+import urllib
+
 import json
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 from livereload import Server, shell
@@ -14,19 +16,18 @@ def parse_json(json_path, books_path, images_path):
     with open(f'{json_path}/books.json', 'r', encoding='utf-8') as data:
         books_attributes = json.load(data)
         for book in books_attributes:
-            book_path = f'{books_path}/{book["book_id"]}.{book["book_name"]}.txt'
-            if not os.path.exists(book_path):
+            book_url = f'{books_path}/{book["book_id"]}.{book["book_name"]}.txt'
+            if not os.path.exists(book_url):
                 book['book_name'] = None
             else:
-                purified_image_url = book['image_url'].replace('/shots/', '').replace('/images/', '')
-                if 'nopic' in purified_image_url:
-                    purified_image_url = None
-                book['image_url'] = purified_image_url
-                book['book_path'] = books_path
-                book['image_path'] = images_path
+                purified_image_path = book['image_url'].replace('/shots/', '').replace('/images/', '')
+                if 'nopic' in purified_image_path:
+                    purified_image_path = None
+                image_url = f'{images_path}/{purified_image_path}'
+                book['image_url'] = urllib.parse.quote(image_url)
+                book['book_url'] = urllib.parse.quote(book_url)
 
-        purified_books_attributes = []
-        [purified_books_attributes for book in books_attributes if book['book_name']]
+        purified_books_attributes = [book for book in books_attributes if book['book_name']]
         return purified_books_attributes
 
 
