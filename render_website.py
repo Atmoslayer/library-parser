@@ -22,7 +22,7 @@ def parse_json(json_path, books_path, images_path):
             else:
                 purified_image_path = book['image_url'].replace('/shots/', '').replace('/images/', '')
                 if 'nopic' in purified_image_path:
-                    purified_image_path = None
+                    purified_image_path = f'{book["book_id"]}.gif'
                 image_url = f'{images_path}/{purified_image_path}'
                 book['image_url'] = urllib.parse.quote(image_url)
                 book['book_url'] = urllib.parse.quote(book_url)
