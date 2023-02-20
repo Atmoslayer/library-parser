@@ -39,11 +39,7 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
-                                    {% if  not books_attributes.image_url%}
-                                        <img src="../{{books_attributes.image_url | urlencode}}" class="card-img" alt="{{books_attributes.book_name}}_cover">
-                                    {% else %}
-                                        <img src="../{{books_attributes.image_url | urlencode}}" class="card-img" alt="{{books_attributes.book_name}}_cover">
-                                    {% endif %}
+                                    <img src="../{{books_attributes.image_url | urlencode}}" class="card-img" alt="{{books_attributes.book_name}}_cover">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
