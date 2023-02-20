@@ -36,8 +36,6 @@ def render_pages(books_attributes, books_quantity, pages_path):
 
     for page_number, part_of_books_attributes in enumerate(splitted_books_attributes, start=1):
 
-        pages_dir = f'{pages_path}/index{page_number}'
-
         books_cards_per_col = math.ceil(len(part_of_books_attributes) / 2)
 
         divided_books_attributes = list(chunked(part_of_books_attributes, books_cards_per_col))
@@ -48,7 +46,7 @@ def render_pages(books_attributes, books_quantity, pages_path):
             pages_quantity=len(splitted_books_attributes)
         )
 
-        with open(f'{pages_dir}.html', 'w', encoding='utf8') as file:
+        with open(f'{pages_path}/index{page_number}.html', 'w', encoding='utf8') as file:
             file.write(rendered_page)
 
 
