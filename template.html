@@ -48,7 +48,7 @@
                                         {% for genres in books_attributes.genres %}
                                             <h6><span class="badge badge-secondary">{{genres}}</span></h6>
                                         {% endfor %}
-                                            <a class="card-text" href="../{{books_attributes.book_url}}" target="_blank">
+                                            <a class="card-text" href="../{{books_attributes.book_url | urlencode}}" target="_blank">
                                             <h4><small class="text-muted">Читать</small></h4>
                                             </a>
                                     </div>
