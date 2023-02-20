@@ -10,7 +10,7 @@ from livereload import Server, shell
 from more_itertools import chunked
 
 
-def parse_json(json_path, books_path, images_path):
+def get_books_attributes(json_path, books_path, images_path):
 
     with open(f'{json_path}/books.json', 'r', encoding='utf-8') as data:
         books_attributes = json.load(data)
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     )
     template = env.get_template('/template.html')
 
-    books_attributes = parse_json(json_path, books_path, images_path)
+    books_attributes = get_books_attributes(json_path, books_path, images_path)
     render_pages(books_attributes, books_quantity, pages_path)
 
     os.makedirs(pages_path, exist_ok=True)
