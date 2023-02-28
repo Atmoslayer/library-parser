@@ -23,8 +23,8 @@ def get_books_attributes(json_path, books_path, images_path):
                 if 'nopic' in purified_image_path:
                     purified_image_path = f'{book["book_id"]}.gif'
                 image_url = f'{images_path}/{purified_image_path}'
-                book['image_url'] = urllib.parse.quote(image_url)
-                book['book_url'] = urllib.parse.quote(book_url)
+                book['image_url'] = image_url
+                book['book_url'] = book_url
 
         purified_books_attributes = [book for book in books_attributes if book['book_name']]
         return purified_books_attributes
