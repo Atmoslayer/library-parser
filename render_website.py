@@ -30,8 +30,9 @@ def get_books_attributes(json_path, books_path, images_path):
         return purified_books_attributes
 
 
-def render_pages(books_attributes, books_quantity, pages_path):
-
+def render_pages():
+    global books_attributes, books_quantity, pages_path
+    template = env.get_template('/template.html')
     splitted_books_attributes = list(chunked(books_attributes, books_quantity))
 
     for page_number, part_of_books_attributes in enumerate(splitted_books_attributes, start=1):
@@ -71,16 +72,12 @@ if __name__ == '__main__':
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html', 'xml'])
     )
-    template = env.get_template('/template.html')
 
     books_attributes = get_books_attributes(json_path, books_path, images_path)
-    render_pages(books_attributes, books_quantity, pages_path)
-
-    os.makedirs(pages_path, exist_ok=True)
+    render_pages()
 
     server = Server()
-    for page in os.listdir(pages_path):
-        page = os.path.join(pages_path, page)
-        server.watch(page, shell('make html', cwd='docs'))
+    server.watch('template.html', render_pages)
     logging.info('Starting development server at http://127.0.0.1:5500/')
-    server.serve()
+    server.serve(root='.')
+
