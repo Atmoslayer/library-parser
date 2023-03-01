@@ -31,7 +31,6 @@ def get_books_attributes(json_path):
 
 
 def render_pages():
-    global books_attributes, books_quantity, pages_path
     template = env.get_template('/template.html')
     splitted_books_attributes = list(chunked(books_attributes, books_quantity))
 
