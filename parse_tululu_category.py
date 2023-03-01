@@ -57,7 +57,7 @@ if __name__ == "__main__":
                     book_response.raise_for_status()
                     check_for_redirect(book_response, book_id)
                     book_soup = BeautifulSoup(book_response.text, 'lxml')
-                    book = parse_book(book_soup, purified_book_id)
+                    book = parse_book(book_soup, purified_book_id, books_path, images_path)
                     books_attributes.append(book)
 
                     bar.next()

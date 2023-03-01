@@ -13,7 +13,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "239"
+      "book_id": "239",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Бич небесный",
@@ -33,7 +35,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "550"
+      "book_id": "550",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Цена посвящения Серый Ангел",
@@ -47,7 +51,9 @@
          "Боевики",
          "Научная фантастика"
       ],
-      "book_id": "768"
+      "book_id": "768",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Цена посвящения Время Зверя",
@@ -62,7 +68,9 @@
          "Боевики",
          "Научная фантастика"
       ],
-      "book_id": "769"
+      "book_id": "769",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Дело Джен, или Эйра немилосердия",
@@ -73,7 +81,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "1131"
+      "book_id": "1131",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Фабрика дьявола",
@@ -90,7 +100,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "1715"
+      "book_id": "1715",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Говорящий камень",
@@ -110,7 +122,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "1987"
+      "book_id": "1987",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "И Он пришел... ИТ-роман",
@@ -142,7 +156,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "2043"
+      "book_id": "2043",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Казнить нельзя помиловать",
@@ -155,7 +171,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "2531"
+      "book_id": "2531",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ночь, которая умирает",
@@ -175,7 +193,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "4024"
+      "book_id": "4024",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Нырок в забвение",
@@ -189,7 +209,9 @@
          "Политические детективы",
          "Триллеры"
       ],
-      "book_id": "4102"
+      "book_id": "4102",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Поющий колокольчик",
@@ -204,7 +226,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "4876"
+      "book_id": "4876",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Продается тело Христа",
@@ -222,7 +246,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "5299"
+      "book_id": "5299",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Роковой поцелуй",
@@ -234,7 +260,9 @@
          "Прочие Детективы",
          "Прочие приключения"
       ],
-      "book_id": "5648"
+      "book_id": "5648",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Те, кто против нас",
@@ -254,7 +282,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "6758"
+      "book_id": "6758",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Телепортеры, внимание!",
@@ -265,7 +295,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "6766"
+      "book_id": "6766",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Зодиак",
@@ -278,7 +310,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "8283"
+      "book_id": "8283",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Der Schwarm",
@@ -289,7 +323,9 @@
          "Научная фантастика",
          "Триллеры"
       ],
-      "book_id": "8467"
+      "book_id": "8467",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Justitia - est Часть 1",
@@ -300,7 +336,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "8559"
+      "book_id": "8559",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Lost in a Good Book",
@@ -311,7 +349,9 @@
          "Научная фантастика",
          "Прочие Детективы"
       ],
-      "book_id": "8595"
+      "book_id": "8595",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Астронавт Джонс",
@@ -341,7 +381,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "8902"
+      "book_id": "8902",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Будет скафандр - будут и путешествия",
@@ -363,7 +405,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "9080"
+      "book_id": "9080",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Дочь Нефертити",
@@ -385,7 +429,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "9402"
+      "book_id": "9402",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Наложница императора",
@@ -401,7 +447,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "10768"
+      "book_id": "10768",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Общая теория Доминант",
@@ -423,7 +471,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "10923"
+      "book_id": "10923",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Программируемый мальчик (педагогическая фантастика)",
@@ -435,7 +485,9 @@
          "Киберпанк",
          "Научная фантастика"
       ],
-      "book_id": "11477"
+      "book_id": "11477",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Войны Сорока Островов (Часть первая)",
@@ -459,7 +511,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "12674"
+      "book_id": "12674",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Взгляд из сердца",
@@ -473,7 +527,9 @@
          "Прочая детская литература",
          "Эзотерика"
       ],
-      "book_id": "12795"
+      "book_id": "12795",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Звездный зверь ( Звездное чудовище)",
@@ -488,7 +544,9 @@
          "Детская фантастика",
          "Научная фантастика"
       ],
-      "book_id": "13038"
+      "book_id": "13038",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Красный сфинкс",
@@ -499,7 +557,9 @@
          "Научная фантастика",
          "Прочая документальная литература"
       ],
-      "book_id": "14480"
+      "book_id": "14480",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Сборник рассказов и повестей",
@@ -511,7 +571,9 @@
          "Публицистика",
          "Юмористическая фантастика"
       ],
-      "book_id": "16092"
+      "book_id": "16092",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "...Яко помниши его",
@@ -539,7 +601,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18919"
+      "book_id": "18919",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "...На Вавилон",
@@ -555,7 +619,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18920"
+      "book_id": "18920",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "...Вставьте шплинт А в гнездо Б...",
@@ -579,7 +645,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18921"
+      "book_id": "18921",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "...к звездам!",
@@ -591,7 +659,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18922"
+      "book_id": "18922",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "1-книга. Весна на Галане",
@@ -606,7 +676,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18926"
+      "book_id": "18926",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "10-я книга. Варкенские перемены.",
@@ -618,7 +690,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18928"
+      "book_id": "18928",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "11-я книга. Рождение империи сенсетивов",
@@ -631,7 +705,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18929"
+      "book_id": "18929",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "13-я книга. Галанское сватовство",
@@ -641,7 +717,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18930"
+      "book_id": "18930",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "132-й",
@@ -657,7 +735,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18931"
+      "book_id": "18931",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "14-я книга. Барабаны Таланов",
@@ -667,7 +747,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18932"
+      "book_id": "18932",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "15-я книга. Школа арханелов",
@@ -677,7 +759,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18933"
+      "book_id": "18933",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "2-я книга. Сенсетивы Галана",
@@ -687,7 +771,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18935"
+      "book_id": "18935",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "4-я книга. Экспедиция на Голубой планетоид",
@@ -697,7 +783,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18936"
+      "book_id": "18936",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "5-я книга. В подземельях Бидрупа.",
@@ -707,7 +795,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18937"
+      "book_id": "18937",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "53-я американская мечта",
@@ -720,7 +810,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18938"
+      "book_id": "18938",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "6-я книга. Сражение за Бидруп.",
@@ -730,7 +822,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18939"
+      "book_id": "18939",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "64-клеточный дурдом",
@@ -742,7 +836,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18940"
+      "book_id": "18940",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "7-я книга. День Откровения",
@@ -752,7 +848,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18941"
+      "book_id": "18941",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "8-я книга. Полет Уригленны.",
@@ -762,7 +860,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18942"
+      "book_id": "18942",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "9-я книга. Тарат Зурбин",
@@ -772,7 +872,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18943"
+      "book_id": "18943",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "90х60х90",
@@ -784,7 +886,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18944"
+      "book_id": "18944",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "995-й святой",
@@ -794,7 +898,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18945"
+      "book_id": "18945",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А, Критика!",
@@ -804,7 +910,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18946"
+      "book_id": "18946",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "АНТОЛОГИЯ СКАНДИНАВСКОЙ ФАНТАСТИКИ",
@@ -821,7 +929,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18949"
+      "book_id": "18949",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А бог един",
@@ -831,7 +941,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18952"
+      "book_id": "18952",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А была ли тайна",
@@ -841,7 +953,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18953"
+      "book_id": "18953",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А человек забудет",
@@ -851,7 +965,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18954"
+      "book_id": "18954",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А что будет",
@@ -861,7 +977,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18955"
+      "book_id": "18955",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А что с ними делать дальше",
@@ -877,7 +995,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18956"
+      "book_id": "18956",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А дом стоит себе спокойно (Вечный дом)",
@@ -887,7 +1007,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18958"
+      "book_id": "18958",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А еще мы выгуливаем собак",
@@ -901,7 +1023,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18959"
+      "book_id": "18959",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А где же Рошар",
@@ -911,7 +1035,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18960"
+      "book_id": "18960",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А и Е",
@@ -921,7 +1047,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18961"
+      "book_id": "18961",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А я пойду дальше",
@@ -931,7 +1059,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18962"
+      "book_id": "18962",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А как же еще",
@@ -943,7 +1073,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18963"
+      "book_id": "18963",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А мне до них",
@@ -953,7 +1085,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18964"
+      "book_id": "18964",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А могла бы и быть",
@@ -963,7 +1097,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18965"
+      "book_id": "18965",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А моя мама - ведьма!",
@@ -975,7 +1111,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18966"
+      "book_id": "18966",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А мы лезем в окно",
@@ -987,7 +1125,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18967"
+      "book_id": "18967",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А она бежала",
@@ -999,7 +1139,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18968"
+      "book_id": "18968",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А она уходила",
@@ -1009,7 +1151,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18969"
+      "book_id": "18969",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А поезд идет",
@@ -1019,7 +1163,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18970"
+      "book_id": "18970",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А роза упала на лапу Азора",
@@ -1029,7 +1175,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18971"
+      "book_id": "18971",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А вдруг они победят",
@@ -1039,7 +1187,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18972"
+      "book_id": "18972",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А вдруг",
@@ -1049,7 +1199,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18973"
+      "book_id": "18973",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А все из-за любви",
@@ -1061,7 +1213,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18974"
+      "book_id": "18974",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А все остальное - не в счёт",
@@ -1073,7 +1227,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18975"
+      "book_id": "18975",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А всё остальное - не в счёт",
@@ -1083,7 +1239,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18976"
+      "book_id": "18976",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А всходы будут не скоро",
@@ -1093,7 +1251,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18977"
+      "book_id": "18977",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А вы не верили",
@@ -1103,7 +1263,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18978"
+      "book_id": "18978",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А за тобой придет генерал",
@@ -1113,7 +1275,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18979"
+      "book_id": "18979",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "А жизнь идёт",
@@ -1123,7 +1287,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18980"
+      "book_id": "18980",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ааст Ллун - архитектор неба",
@@ -1137,7 +1303,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18981"
+      "book_id": "18981",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абадон",
@@ -1147,7 +1315,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18982"
+      "book_id": "18982",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абицелла",
@@ -1157,7 +1327,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18984"
+      "book_id": "18984",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абракадабра",
@@ -1171,7 +1343,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18986"
+      "book_id": "18986",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютная Энциклопедия. Том 2",
@@ -1183,7 +1357,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18987"
+      "book_id": "18987",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютная гарантия",
@@ -1216,7 +1392,9 @@
          "Космическая фантастика",
          "Научная фантастика"
       ],
-      "book_id": "18988"
+      "book_id": "18988",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютная полиция",
@@ -1226,7 +1404,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18990"
+      "book_id": "18990",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютная правда",
@@ -1236,7 +1416,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18991"
+      "book_id": "18991",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютная пустота (предисловие)",
@@ -1248,7 +1430,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18992"
+      "book_id": "18992",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютная технократия",
@@ -1260,7 +1444,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18993"
+      "book_id": "18993",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютно невозможно",
@@ -1270,7 +1456,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18994"
+      "book_id": "18994",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютное Оружие",
@@ -1280,7 +1468,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18995"
+      "book_id": "18995",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютное оружие Горгон",
@@ -1290,7 +1480,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18996"
+      "book_id": "18996",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютное счастье",
@@ -1303,7 +1495,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "18999"
+      "book_id": "18999",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютное время",
@@ -1313,7 +1507,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19000"
+      "book_id": "19000",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абсолютный хрум",
@@ -1323,7 +1519,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19001"
+      "book_id": "19001",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абстиненция",
@@ -1333,7 +1531,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19002"
+      "book_id": "19002",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Абстрактное мышление",
@@ -1343,7 +1543,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19003"
+      "book_id": "19003",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ад для флибустьеров",
@@ -1357,7 +1559,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19004"
+      "book_id": "19004",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ад есть ад",
@@ -1376,7 +1580,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19005"
+      "book_id": "19005",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ад на Венере",
@@ -1386,7 +1592,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19006"
+      "book_id": "19006",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ад на Земле",
@@ -1396,7 +1604,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19007"
+      "book_id": "19007",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Ад - это отсутствие бога",
@@ -1410,7 +1620,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19009"
+      "book_id": "19009",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адам Вишневский-Снерг - биография",
@@ -1420,7 +1632,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19011"
+      "book_id": "19011",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адам без Евы",
@@ -1432,7 +1646,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19012"
+      "book_id": "19012",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адам и Ева - 2",
@@ -1445,7 +1661,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19013"
+      "book_id": "19013",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адам и Ева",
@@ -1455,7 +1673,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19014"
+      "book_id": "19014",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адаптация",
@@ -1467,7 +1687,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19015"
+      "book_id": "19015",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адаптатор",
@@ -1479,7 +1701,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19016"
+      "book_id": "19016",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адаптивная жена",
@@ -1489,7 +1713,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19017"
+      "book_id": "19017",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адепт (Адепт - 1)",
@@ -1499,7 +1725,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19019"
+      "book_id": "19019",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адепт Источника",
@@ -1509,7 +1737,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19020"
+      "book_id": "19020",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адепт Сергеев",
@@ -1521,7 +1751,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19021"
+      "book_id": "19021",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Администрация леса",
@@ -1531,7 +1763,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19024"
+      "book_id": "19024",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адмиральский час",
@@ -1541,7 +1775,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19025"
+      "book_id": "19025",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адмирал над поляной",
@@ -1551,7 +1787,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19026"
+      "book_id": "19026",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адов Пламень (фрагмент)",
@@ -1561,7 +1799,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19027"
+      "book_id": "19027",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адские лики Марса",
@@ -1571,7 +1811,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19031"
+      "book_id": "19031",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адский мир (Мир Туманов - 3)",
@@ -1581,7 +1823,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19033"
+      "book_id": "19033",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адский модерн",
@@ -1591,7 +1835,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19035"
+      "book_id": "19035",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адский огонь",
@@ -1615,7 +1861,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19036"
+      "book_id": "19036",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адский житель",
@@ -1627,7 +1875,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19037"
+      "book_id": "19037",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адское пламя (Комментарий к неизданной Антологии)",
@@ -1637,7 +1887,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19038"
+      "book_id": "19038",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адское пламя",
@@ -1647,7 +1899,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19039"
+      "book_id": "19039",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Адвокату - два миллиона",
@@ -1659,7 +1913,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19041"
+      "book_id": "19041",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Афоризмы",
@@ -1669,7 +1925,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19042"
+      "book_id": "19042",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Афра",
@@ -1679,7 +1937,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19043"
+      "book_id": "19043",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Афраллер",
@@ -1689,7 +1949,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19044"
+      "book_id": "19044",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Африка",
@@ -1699,7 +1961,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19045"
+      "book_id": "19045",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Африканская история",
@@ -1709,7 +1973,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19046"
+      "book_id": "19046",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Африканская народная сказка",
@@ -1719,7 +1985,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19047"
+      "book_id": "19047",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Афродита (2080)",
@@ -1729,7 +1997,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19048"
+      "book_id": "19048",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агасфер",
@@ -1739,7 +2009,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19050"
+      "book_id": "19050",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агава Супсова",
@@ -1749,7 +2021,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19051"
+      "book_id": "19051",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент Алехин",
@@ -1759,7 +2033,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19052"
+      "book_id": "19052",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент Омега-корпуса",
@@ -1769,7 +2045,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19055"
+      "book_id": "19055",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент Тартара",
@@ -1792,7 +2070,9 @@
          "Космическая фантастика",
          "Научная фантастика"
       ],
-      "book_id": "19057"
+      "book_id": "19057",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент Х, или Конец игры",
@@ -1811,7 +2091,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19060"
+      "book_id": "19060",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент Хаоса",
@@ -1821,7 +2103,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19061"
+      "book_id": "19061",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент Звездного корпуса",
@@ -1834,7 +2118,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19062"
+      "book_id": "19062",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент чужой планеты",
@@ -1844,7 +2130,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19063"
+      "book_id": "19063",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент галактики",
@@ -1854,7 +2142,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19064"
+      "book_id": "19064",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент из будущего",
@@ -1864,7 +2154,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19065"
+      "book_id": "19065",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент космического сыска",
@@ -1878,7 +2170,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19066"
+      "book_id": "19066",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент нокке, или на войне как на войне",
@@ -1888,7 +2182,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19067"
+      "book_id": "19067",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент перемен (Лиад - 2)",
@@ -1898,7 +2194,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19068"
+      "book_id": "19068",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент перемен",
@@ -1908,7 +2206,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19069"
+      "book_id": "19069",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент",
@@ -1918,7 +2218,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19071"
+      "book_id": "19071",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агент X-100-C",
@@ -1928,7 +2230,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19072"
+      "book_id": "19072",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агенты Синлара",
@@ -1938,7 +2242,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19074"
+      "book_id": "19074",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агнесса на Луне",
@@ -1950,7 +2256,9 @@
          "Прочие приключения",
          "Фэнтези"
       ],
-      "book_id": "19076"
+      "book_id": "19076",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Агония",
@@ -1960,7 +2268,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19077"
+      "book_id": "19077",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аида",
@@ -1972,7 +2282,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19079"
+      "book_id": "19079",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аидовы тени",
@@ -1984,7 +2296,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19080"
+      "book_id": "19080",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Айболит-99",
@@ -1994,7 +2308,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19081"
+      "book_id": "19081",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аэлита",
@@ -2021,7 +2337,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19082"
+      "book_id": "19082",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аэрогарды",
@@ -2031,7 +2349,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19083"
+      "book_id": "19083",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аэронеф 25 лет Вашингтонской коммуны (фрагмент)",
@@ -2041,7 +2361,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19084"
+      "book_id": "19084",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Айсберг Тауматы",
@@ -2051,7 +2373,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19085"
+      "book_id": "19085",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Айси",
@@ -2061,7 +2385,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19086"
+      "book_id": "19086",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академия Биссектриса",
@@ -2071,7 +2397,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19087"
+      "book_id": "19087",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академия и Земля",
@@ -2085,7 +2413,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19091"
+      "book_id": "19091",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академия и хаос",
@@ -2095,7 +2425,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19092"
+      "book_id": "19092",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академия на краю гибели",
@@ -2107,7 +2439,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19093"
+      "book_id": "19093",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академия теней (Становление Темной Школы - 2)",
@@ -2117,7 +2451,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19094"
+      "book_id": "19094",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академия",
@@ -2132,7 +2468,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19096"
+      "book_id": "19096",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академик",
@@ -2144,7 +2482,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19097"
+      "book_id": "19097",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Академонгородок",
@@ -2157,7 +2497,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19098"
+      "book_id": "19098",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акамие, или Любимая игрушка судьбы",
@@ -2172,7 +2514,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19099"
+      "book_id": "19099",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акция возмездия",
@@ -2182,7 +2526,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19101"
+      "book_id": "19101",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акционерное общество Золотой Ангел",
@@ -2192,7 +2538,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19102"
+      "book_id": "19102",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акселератор",
@@ -2202,7 +2550,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19104"
+      "book_id": "19104",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аксиомы волшебной палочки",
@@ -2212,7 +2562,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19105"
+      "book_id": "19105",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аксолотль",
@@ -2222,7 +2574,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19106"
+      "book_id": "19106",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акула",
@@ -2232,7 +2586,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19107"
+      "book_id": "19107",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акулу еще не съели! (Акулу цъели - 1)",
@@ -2242,7 +2598,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19108"
+      "book_id": "19108",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акулу хотят съесть ! (Акулу цъели - 2)",
@@ -2252,7 +2610,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19111"
+      "book_id": "19111",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акулы",
@@ -2264,7 +2624,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19112"
+      "book_id": "19112",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аквамарин и летучие мыши",
@@ -2275,7 +2637,9 @@
          "Научная фантастика",
          "Прочие приключения"
       ],
-      "book_id": "19113"
+      "book_id": "19113",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Акванавты",
@@ -2288,7 +2652,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19114"
+      "book_id": "19114",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аквариум с золотыми рыбками",
@@ -2300,7 +2666,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19115"
+      "book_id": "19115",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аквариумы",
@@ -2310,7 +2678,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19116"
+      "book_id": "19116",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альбатрос (на белорусском языке)",
@@ -2320,7 +2690,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19118"
+      "book_id": "19118",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альбатрос",
@@ -2332,7 +2704,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19119"
+      "book_id": "19119",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альфа-ромео",
@@ -2344,7 +2718,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19121"
+      "book_id": "19121",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альфа и омега",
@@ -2356,7 +2732,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19123"
+      "book_id": "19123",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альфред Целлерман - Группенфюрер Луи XVI",
@@ -2368,7 +2746,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19124"
+      "book_id": "19124",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альтернатива - Экранопланы !",
@@ -2378,7 +2758,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19126"
+      "book_id": "19126",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альтернатива",
@@ -2388,7 +2770,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19127"
+      "book_id": "19127",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альтернативная история",
@@ -2398,7 +2782,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19128"
+      "book_id": "19128",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альтруисты",
@@ -2408,7 +2794,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19130"
+      "book_id": "19130",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Альтруизин",
@@ -2418,7 +2806,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19131"
+      "book_id": "19131",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Алая Книга Западных Пределов",
@@ -2428,7 +2818,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19132"
+      "book_id": "19132",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Алая чума",
@@ -2441,7 +2833,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19133"
+      "book_id": "19133",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Алая книга Готреда",
@@ -2451,7 +2845,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19134"
+      "book_id": "19134",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аламагуса",
@@ -2461,7 +2857,9 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19136"
+      "book_id": "19136",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    },
    {
       "book_name": "Аламазон и его пехота",
@@ -2471,6 +2869,640 @@
       "genres": [
          "Научная фантастика"
       ],
-      "book_id": "19137"
+      "book_id": "19137",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алатырь-камень",
+      "author": "Войскунский Е",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19139",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Александр-наживка",
+      "author": "Тенн Уильям",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19140",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Александр Александрович Малиновский (Богданов)",
+      "author": "Баландин Рудольф",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19141",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Александр Бог",
+      "author": "Азимов Айзек",
+      "comments": [
+         "Мальчик и его гигантский суперумный компьютер пытаются покорить мир, не ведая о том, что сами готовят себе смертельную ловушку. Один из средних рассказов Азимова, но по-своему интересный.",
+         "Спасибо! Спасибо! Создателям сайта. Можно скачать любимых авторов! Купить это сейчас не возможно. Шарилась по многим сайтам и черта с два скачаешь бесплатно! Наконец нашла это чудо! Дай Вам Бог долгих радостных лет и здоровья!"
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19142",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Александр Лаврентьевич Колпаков - об авторе",
+      "author": "Колпаков Александр",
+      "comments": [
+         "Данную книгу я читал в то время, когда из фантастики доступной было очень мало литературы. Книга произвела на меня огромное впечатление. И вот в настоящее время, слушая наших конструкторов космических аппаратов, я слышу отголоски теории, которые звучали в этой книге. Касается, теории относительности, энергетических ракет для полетов к центру галактики за приемлемое время. Я думаю, что автор А. Колпаков, выдающийся фантаст, который может предвидеть будущее."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19143",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Александр Петрович и Вероятностный Демон",
+      "author": "Фирсов Владимир",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19144",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Александр Щеголев - сведения об авторе",
+      "author": "Щеголев Александр",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19145",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алешкин и Туб",
+      "author": "Михеев Михаил",
+      "comments": [
+         "Давно хотела перечитать, это книга из моей юности самая любимая."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19148",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алгебра любви",
+      "author": "Бабий Алексей",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19149",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алгоритм Вселенной",
+      "author": "Горбовский Александр",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19150",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алгоритм невозможного (По ту сторону Вселенной - 2)",
+      "author": "Плонский Александр",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19151",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алгоритм успеха",
+      "author": "Савченко Владимир",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19152",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алгоритм",
+      "author": "Куклин Лев",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19153",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Али-лев",
+      "author": "Зиборов Александр",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19154",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алиби",
+      "author": "ИВАНОВ Сергей",
+      "comments": [],
+      "image_url": "/shots/19155.jpg",
+      "genres": [
+         "Научная фантастика",
+         "Прочие Детективы"
+      ],
+      "book_id": "19155",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алиса",
+      "author": "Каннингем Элейн",
+      "comments": [
+         "да...хватает за душу)интеренсое содержание....потрясно блин!)",
+         "Обычный человек, обремененный рутиной жизни, попадает в непростую ситуацию, втягивая в неприятности свою семью. Проходя через все испытания, герои начинают смотреть друг на друга, и на себя по-новому. Если бы сняли кино, то получился бы американский боевик, в стиле тех, что мы смотрели в видеосалонах в начале девяностых. 4 из 5."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19156",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алиска",
+      "author": "Дедюхова Ирина",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19157",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алконост",
+      "author": "Вотрин Валерий",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19159",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Аллергия",
+      "author": "Варакин Александр",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19160",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алло, Парнас!",
+      "author": "Берестов Валентин",
+      "comments": [
+         "А мне понравилось! Только больно уж маленький рассказ. Это так задумано? Хочу ещё!",
+         "Честно, ничего не поняла- это боги?"
+      ],
+      "image_url": "/shots/19161.jpg",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19161",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алло, Парнас !",
+      "author": "Берестов Валентин",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19162",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмаз Шах",
+      "author": "Ахметов Спартак",
+      "comments": [
+         "Отличная вещь! Я ее читала давно, искала и никак не могла найти! Почему-то думала, что это И. Ефремов. Удовольствие от  книги огромное!",
+         "Отличная книга!!! Всем советую!",
+         "Отличная книга давно ее искал... Спасибо вам."
+      ],
+      "image_url": "/shots/19163.jpg",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19163",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмазная Маска (Галактическое Содружество - 2)",
+      "author": "Мэй Джулиан",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19164",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмазная свинка",
+      "author": "Каттнер Генри",
+      "comments": [
+         "Всем рекомендую, сюжеты не избитые, юмор качественный. Еще очень хорошая серия о принце Рэйноре."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19166",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмазная труба",
+      "author": "Ефремов Иван",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19168",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмазные нервы",
+      "author": "Бурносов Юрий",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19169",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмазный Гепард (Буйство во Времени - 1, часть 1 и 2)",
+      "author": "Аллес Слай А",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19170",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алмазный дым",
+      "author": "Донев Антон",
+      "comments": [
+         "Хорошо написано. Держит стиль артура конан дойла. Интересные преступники.",
+         "Мне не понравилось, потому что ничего интересного в рассказе не нашла."
+      ],
+      "image_url": "/shots/19171.jpg",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19171",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алогичные",
+      "author": "Перв Григорий",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19175",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алтарь Василиска (Храм Саламандры - 2)",
+      "author": "Арчер Вадим",
+      "comments": [
+         "Читается на одном дыхании, классная книга.",
+         "Классная книга."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19176",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алхимия любви",
+      "author": "Минков Святослав",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19180",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алхимик и колдунья",
+      "author": "Сташефф Кристофер",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19181",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алхимик",
+      "author": "Шпаков Юрий",
+      "comments": [],
+      "image_url": "/shots/19182.jpg",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19182",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Алые паруса - 2",
+      "author": "Щербак-Жуков Андрей",
+      "comments": [
+         "Не история, а очередной сюрреалистический бред. Разочарована донельзя, просто ужасно."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19185",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амальгама миров",
+      "author": "Клименко Владимир",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19187",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амалрик",
+      "author": "Картер Лин",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19188",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Аманда Морган",
+      "author": "Диксон Гордон",
+      "comments": [],
+      "image_url": "/shots/19189.jpg",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19189",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Аманжол",
+      "author": "Ютанов Николай",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19190",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амазония, япданг Восточный",
+      "author": "Павлов Сергей Иванович",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19191",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амба",
+      "author": "Беляев Александр Романович",
+      "comments": [
+         "В детстве отец купил мне собрание призведений Александра Беляева. Прочитал всё за лето. Порой читал до 3-х утра.Описывать содержание нет смысла, просто скажу, что практически все книги Беляева несут в себе смелую, добрую мысль. Везде у него показан умный, добрый, храбрый человек. Беляев искренне хотел, чтобы наше Русское общество стало таким, как он о нём пишет. Эти книги - словно напутсвие будущим поколениям.Помимо Амбы, рекомендую прочитать всю серию рассказов про профессора Вагнера, \"Продавец воздуха\", \"Ариэль\"."
+      ],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19193",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Американец",
+      "author": "Домбровский Николай",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19196",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Американская дуэль",
+      "author": "Биксби Джером",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19197",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Американская душа",
+      "author": "Хлумов Владимир",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19198",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Американский аквариум",
+      "author": "Кирпичев Вадим",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19203",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амфитеатр",
+      "author": "Шоу Боб",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19204",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амина",
+      "author": "Уайт Эдвард Лукас",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19206",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амнезия творца",
+      "author": "Летем Джонатан",
+      "comments": [
+         "Начало не очень, но сюжет очень интересный. Почитать можно, рекомендую."
+      ],
+      "image_url": "/shots/19207.jpg",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19207",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амнезия",
+      "author": "Никитин Антон",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19208",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Амнистия",
+      "author": "Батлер Октавия",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19209",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
+   },
+   {
+      "book_name": "Ампирный пасьянс",
+      "author": "Лысяк Вальдемар",
+      "comments": [],
+      "image_url": "/images/nopic.gif",
+      "genres": [
+         "Научная фантастика"
+      ],
+      "book_id": "19210",
+      "books_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\books",
+      "images_path": "C:\\Users\\ddsom\\Documents\\GitHub\\library-parser\\media\\images"
    }
 ]

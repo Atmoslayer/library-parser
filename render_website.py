@@ -10,19 +10,19 @@ from livereload import Server, shell
 from more_itertools import chunked
 
 
-def get_books_attributes(json_path, books_path, images_path):
+def get_books_attributes(json_path):
 
     with open(f'{json_path}/books.json', 'r', encoding='utf-8') as data:
         books_attributes = json.load(data)
         for book in books_attributes:
-            book_url = f'{books_path}/{book["book_id"]}.{book["book_name"]}.txt'
+            book_url = f'{book["books_path"]}/{book["book_id"]}.{book["book_name"]}.txt'
             if not os.path.exists(book_url):
                 book['book_name'] = None
             else:
                 purified_image_path = book['image_url'].replace('/shots/', '').replace('/images/', '')
                 if 'nopic' in purified_image_path:
                     purified_image_path = f'{book["book_id"]}.gif'
-                image_url = f'{images_path}/{purified_image_path}'
+                image_url = f'{book["images_path"]}/{purified_image_path}'
                 book['image_url'] = image_url
                 book['book_url'] = book_url
 
@@ -55,15 +55,11 @@ if __name__ == '__main__':
 
     logging.basicConfig(level=logging.INFO)
     parser = argparse.ArgumentParser(description='Website render')
-    parser.add_argument('--books_path', help='Enter path to access books', type=str, default='media/books')
-    parser.add_argument('--images_path', help='Enter path to access images', type=str, default='media/images')
     parser.add_argument('--json_path', help='Enter path to save json file', type=str, default='json')
     parser.add_argument('--pages_path', help='Enter path to save pages', type=str, default='pages')
     parser.add_argument('--books_quantity', help='Enter the number of books per page', type=int, default=20)
 
     arguments = parser.parse_args()
-    books_path = arguments.books_path
-    images_path = arguments.images_path
     json_path = arguments.json_path
     pages_path = arguments.pages_path
     books_quantity = arguments.books_quantity
@@ -73,7 +69,7 @@ if __name__ == '__main__':
         autoescape=select_autoescape(['html', 'xml'])
     )
 
-    books_attributes = get_books_attributes(json_path, books_path, images_path)
+    books_attributes = get_books_attributes(json_path)
     render_pages()
 
     server = Server()
