@@ -1,66 +1,67 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../static/bootstrap.min.css">
-  <link rel="icon" href="../static/lg.png">
-  <title>Atmoslayer Library</title>
-</head>
-<body>
-  <nav aria-label="Page navigation" style="margin-top: 20px;">
-    <ul class="pagination justify-content-center">
-      {% if page_index == 1 %}
-        <li class="page-item disabled"><a class="page-link" href="../{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
-      {% else %}
-        <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
-      {% endif %}
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="icon" href="../static/lg.png">
+    <title>Atmoslayer Library</title>
+  </head>
+  <body>
+    <nav aria-label="Page navigation" style="margin-top: 20px;">
+      <ul class="pagination justify-content-center">
+        {% if page_index == 1 %}
+          <li class="page-item disabled"><a class="page-link" href="../{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
+        {% else %}
+          <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_index - 1}}.html">Назад</a></li>
+        {% endif %}
 
-      {% for page_number in range(pages_quantity) %}
-        {% if page_index ==  page_number + 1%}
-          <li class="page-item active"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
-        {% else %}
-          <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
-        {% endif %}
-      {% endfor %}
-        {% if page_index == pages_quantity %}
-          <li class="page-item disabled"><a class="page-link" href="../{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
-        {% else %}
-          <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
-        {% endif %}
-    </ul>
-  </nav>
-  <div class="container">
-    <div class="row">
-      {% for col_books_attributes  in divided_books_attributes %}
-        <div class="col">
-          {% for books_attributes in col_books_attributes %}
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img src="../{{books_attributes.image_url | urlencode}}" class="card-img" alt="{{books_attributes.book_name}}_cover">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">{{books_attributes.book_name}}</h5>
-                    <p class="card-text">{{books_attributes.author}}</p>
-                    {% for genres in books_attributes.genres %}
-                      <h6><span class="badge badge-secondary">{{genres}}</span></h6>
-                    {% endfor %}
-                    <a class="card-text" href="../{{books_attributes.book_url | urlencode}}" target="_blank">
-                      <h4 class="text-muted">Читать</h4>
-                    </a>
+        {% for page_number in range(pages_quantity) %}
+          {% if page_index ==  page_number + 1%}
+            <li class="page-item active"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_number + 1}}.html">{{page_number + 1}}</a></li>
+          {% endif %}
+        {% endfor %}
+          {% if page_index == pages_quantity %}
+            <li class="page-item disabled"><a class="page-link" href="../{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
+          {% else %}
+            <li class="page-item"><a class="page-link" href="../{{pages_path}}/index{{page_index + 1}}.html">Вперед</a></li>
+          {% endif %}
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="row">
+        {% for col_books_attributes  in divided_books_attributes %}
+          <div class="col">
+            {% for books_attributes in col_books_attributes %}
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="../{{books_attributes.image_url | urlencode}}" class="card-img" alt="{{books_attributes.book_name}}_cover">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{books_attributes.book_name}}</h5>
+                      <p class="card-text">{{books_attributes.author}}</p>
+                      {% for genres in books_attributes.genres %}
+                        <h6><span class="badge badge-secondary">{{genres}}</span></h6>
+                      {% endfor %}
+                      <a class="card-text" href="../{{books_attributes.book_url | urlencode}}" target="_blank">
+                        <h4 class="text-muted">Читать</h4>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          {% endfor %}
-        </div>
-      {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  </div>
-    <script src="../static/bootstrap.bundle.min.js"></script>
-    <script src="../static/bootstrap.bundle.min.js"></script>
-</body>
+      <script src="../static/bootstrap.bundle.min.js"></script>
+      <script src="../static/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
