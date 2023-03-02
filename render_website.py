@@ -14,8 +14,11 @@ def get_books_attributes(json_path):
 
     with open(f'{json_path}/books.json', 'r', encoding='utf-8') as data:
         books_attributes = json.load(data)
+
         for book in books_attributes:
             book_url = f'{book["books_path"]}/{book["book_id"]}.{book["book_name"]}.txt'
+            book_url = book_url.replace('\\', '/')
+
             if not os.path.exists(book_url):
                 book['book_name'] = None
             else:
@@ -23,7 +26,7 @@ def get_books_attributes(json_path):
                 if 'nopic' in purified_image_path:
                     purified_image_path = f'{book["book_id"]}.gif'
                 image_url = f'{book["images_path"]}/{purified_image_path}'
-                book['image_url'] = image_url
+                book['image_url'] = image_url.replace('\\', '/')
                 book['book_url'] = book_url
 
         purified_books_attributes = [book for book in books_attributes if book['book_name']]
